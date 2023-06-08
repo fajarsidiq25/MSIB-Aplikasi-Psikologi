@@ -1,0 +1,10 @@
+menjelaskan tugas,
+
+chatbot> menggunakan model LSTM, dan algoritma SGD.
+Long-Short Term Memory (LSTM) merupakan salah satu jenis Machine Learning berbasis pendekatan Recurrent Neural Network yang dapat memprediksi kondisi mesin saat ini dengan menggunakan spark mesin pengolah data skala besar.
+
+Metode SGD merupakan algoritma optimasi iteratif untuk mencari titik fungsi minimum yang dapat diturunkan. Algoritmanya dimulai dengan cara melakukan penebakan di awal proses.
+
+cara deploy flask> install library flask, 
+membuat route untuk tamplate html
+meng ingklut halaman html agar terhubung dengan projeck python.

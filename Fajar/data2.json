@@ -1,0 +1,1801 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Halo",
+                "Hallo",
+                "Hai",
+                "Hei",
+                "Woy",
+                "Kuy",
+                "Salam",
+                "hey",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Hallo, ada yang bisa saya bantu",
+                "Hallo juga, silahkan masukan pertanyaan yang ingin ditanyakan",
+                "Hallo, saya bisa membantu anda yang berkaitan dengan penyakit metal"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+            ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu",
+                "Sampai jumpa lagi",
+                "Semoga harimu menyenangkan",
+                "Dadah! Kembali lagi yaa.....",
+                "Senang berbincang dengan anda....",
+                "Selamat menikmati harimu..."
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Dengan senang hati:)",
+                "Terimakasih kembali"
+            ]
+        },
+        {
+            "tag": "kamu bisa melakukan apa saja",
+            "patterns": [
+                "kamu bisa melakukan apa saja?",
+                "Apa yang bisa kamu lakukan?",
+                "apakah kamu bisa membantu saya?",
+                "bagaimana cara kamu membantu saya?"
+            ],
+            "responses": [
+                "Saya bisa membantu anda menjawab semua pertanyaan yang anda masukan yang berkaitan dengan penyakit mental",
+                "Saya bisa membantu anda menjawab semua pertanyaan yang anda masukan yang berkaitan dengan mental health, mulai dari pencegahan sampai bagaimana cara mengobati penyakit mental"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "definisi mental health",
+            "patterns": [
+                "Apa artinya memiliki penyakit mental?",
+                "Apa itu penyakit kesehatan mental",
+                "Jelaskan penyakit kesehatan mental",
+                "definisi mental health",
+                "definisi penyakit mental"
+            ],
+            "responses": [
+                "Penyakit mental adalah kondisi kesehatan yang mengganggu pikiran, emosi, hubungan, dan fungsi sehari-hari seseorang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penyakit mental harus kemana?",
+            "patterns": [
+                "Penyakit mental harus kemana?"
+            ],
+            "responses": [
+                "Jika Anda mencurigai adanya masalah kesehatan mental, entah karena depresi ataupun kecemasan, sebaiknya Anda berkonsultasi dulu ke dokter umum."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cara mengetahui kita sakit mental apa?",
+            "patterns": [
+                "Cara mengetahui kita sakit mental apa?",
+                "ciri-ciri kita terkena penyakit mental"
+            ],
+            "responses": [
+                "Ciri-Ciri Gangguan Kesehatan Mental yaitu : 1. Merasa sedih berkepanjangan, kadang tanpa sebab yang jelas, 2.Mati rasa atau tak peduli dengan lingkungan sekitar, 3. Merasa lelah yang signifikan, tidak berenergi, dan mengalami masalah tidur, 4. Sering marah berlebihan dan sangat sensitif, 5. Merasa putus asa dan tak berdaya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Berapa biaya ke psikiater?",
+            "patterns": [
+                "Berapa biaya ke psikiater?",
+                "Berapa harga ke psikiater?",
+                "Berapa tarif ke psikiater?"
+            ],
+            "responses": [
+                "Tarif jasa psikiater di kebanyakan rumah sakit swasta di Indonesia saat ini kebanyakan berkisar antara Rp 100 ribu sampai Rp 350 ribu tergantung dari (kelas) rumah sakit tempat psikiater bekerja. Tarif demikian pun biasanya tidak otomatis menjamin waktu konsultasi yang sama"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mengapa kesehatan mental dapat berubah?",
+            "patterns": [
+                "Mengapa kesehatan mental dapat berubah?"
+            ],
+            "responses": [
+                "Karena Lingkupnya melampaui rumah kita, meliputi sekolah, lembaga agama, rumah sakit, dan lembaga-lembaga lain yang membantu mengembangkan reaksi-reaksi emosi yang stabil dan pola-pola tingkah laku yang diinginkan pada individu-individu dari segala usia."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Psikolog harus dipanggil apa?",
+            "patterns": [
+                "Psikolog harus dipanggil apa?"
+            ],
+            "responses": [
+                "Psikolog memiliki gelar doktor di bidang psikologi, studi tentang pikiran dan perilaku manusia. Mereka bukan dokter medis. Seorang psikolog dapat memiliki gelar PhD dalam bidang filsafat atau PsyD dalam psikologi klinis atau konseling."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kenapa psikolog lebih mahal dari psikiater?",
+            "patterns": [
+                "Kenapa psikolog lebih mahal dari psikiater?"
+            ],
+            "responses": [
+                "Psikologi adalah social science, sedangkan psikiatri adalah medical science, sehingga seorang psikiater berhak memberi terapi obat-obatan farmakologi. Maka wajar apabila biaya psikiater pun lebih mahal dibanding psikolog yang hanya berhak memberikan terapi konsultasi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Berapa lama kita berobat ke psikiater?",
+            "patterns": [
+                "Berapa lama kita berobat ke psikiater?"
+            ],
+            "responses": [
+                "Beberapa penelitian banyak mengatakan waktu 6 bulan sejak perbaikan gejala adalah waktu pengobatan yang disarankan untuk kasus yang baru pertama kali mengalami depresi. Sedangkan untuk kasus berulang disarankan lebih dari 2 tahun atau bahkan seumur hidup."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mengapa psikiater mahal?",
+            "patterns": [
+                "Mengapa psikiater mahal?"
+            ],
+            "responses": [
+                "Ongkos mahal ini salah satunya karena terbatasnya tenaga medis bidang kejiwaan, kasus dan penanganan yang 'unik' antara satu pasien dengan yang lain, hingga proses observasi yang butuh waktu cukup panjang. “Proses observasinya kan tidak bisa cuma sekali datang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penyakit mental Apakah Menular?",
+            "patterns": [
+                "Penyakit mental Apakah Menular?"
+            ],
+            "responses": [
+                "Faktanya, para pakar berkata bahwa penyakit mental tidak menular. Meski begitu, ada kemungkinan kita menyerap emosi serta norma orang-orang yang hayati pada dekat kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa Perbedaan depresi dan gila?",
+            "patterns": [
+                "Apa Perbedaan depresi dan gila?"
+            ],
+            "responses": [
+                "Jangan salah, depresi dan gila jauh berbeda. Depresi bisa sembuh meski kadang bisa kambuh, sedangkan kegilaan masih sulit diobati. Merasa murung dari waktu ke waktu adalah bagian normal dari kehidupan. Namun ketika kehampaan dan keputusasaan mengambil alih dan tak mau menghilang, ini mungkin saja menjadi depresi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Bagaimana cara keluar dari depresi?",
+            "patterns": [
+                "Bagaimana cara keluar dari depresi?"
+            ],
+            "responses": [
+                "Berbagai Cara Bangkit dari Depresi yaitu : Melakukan rutinitas, Menetapkan tujuan, Melakukan olahraga, Makan sehat, Tidur yang cukup."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa nama obat depresi di apotik?",
+            "patterns": [
+                "Apa nama obat depresi di apotik?",
+                "obat untuk depresi",
+                "jenis-jenis obat untuk depresi"
+            ],
+            "responses": [
+                "Jenis Obat Anti Depresi yaitu : 1. sertralin (Zoloft), 2.fluoxetine (Prozac, Sarafem), 3.citalopram (Celexa), 4. escitalopram (Lexapro), 5. paroxetine (Paxil, Pexeva, Brisdelle), 6. fluvoxamine (Luvox)"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa perbedaan gangguan jiwa dan gangguan mental?",
+            "patterns": [
+                "Apa perbedaan gangguan jiwa dan gangguan mental?"
+            ],
+            "responses": [
+                "Jawabannya adalah tidak ada perbedaan gangguan jiwa dan gangguan mental. Gangguan jiwa dapat terjadi ketika gangguan mental yang dialami tidak diatasi dengan baik sehingga kondisi kesehatan mental semakin memburuk."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kapan kita harus pergi ke psikiater?",
+            "patterns": [
+                "Kapan kita harus pergi ke psikiater?"
+            ],
+            "responses": [
+                "Jika anda mengalami gangguan mental seperti sering cemas atau berdebar, namun tidak ada sakit fisik, sulit tidur, sering menangis atau sedih yang berkepanjangan, tidak bersemangat dalam menjalani aktivitas sehari-hari, maka ada baiknya anda memeriksakan diri ke psikiater."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mental yang sehat itu seperti apa?",
+            "patterns": [
+                "Mental yang sehat itu seperti apa?",
+                "apa itu mental sehat",
+                "Jelaskan apa itu mental sehat"
+            ],
+            "responses": [
+                "Mental yang sehat adalah ketika Anda berada pada keadaan sejahtera, di mana Anda merasa baik dan damai, mampu berfungsi dengan baik dalam kehidupan, serta mampu memahami makna dan tujuan hidup."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apakah overthinking termasuk gangguan mental?",
+            "patterns": [
+                "Apakah overthinking termasuk gangguan mental?",
+                "apakah ovt termasuk gangguan mental"
+            ],
+            "responses": [
+                "Overthinking bukanlah kondisi kesehatan mental atau mental illness. Melainkan merupakan gejala dari masalah kesehatan mental, seperti depresi atau kecemasan. Overthinking umumnya dikaitkan dengan gangguan kecemasan umum. Gangguan ini ditandai dengan kecenderungan untuk khawatir berlebihan tentang beberapa hal."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kenapa kita sering menghayal dan berbicara sendiri?",
+            "patterns": [
+                "Kenapa kita sering menghayal dan berbicara sendiri?"
+            ],
+            "responses": [
+                "Bicara sendiri yang disertai adanya khayalan sehingga seseorang menjadi sulit atau tidak bisa membedakanyadapat disebabkan berbagai kondisi, seperti : Gangguan kejiwaan seprti psikotik akut. Skizofrenia. Depresi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Bagaimana cara agar tidak terlalu memikirkan masalah?",
+            "patterns": [
+                "Bagaimana cara agar tidak terlalu memikirkan masalah?"
+            ],
+            "responses": [
+                "Ini dia 5 cara agar kita tidak terlalu memikirkan masalah yaitu : 1. Mengalihkan perhatian, 2. Berbicara dengan orang lain 3. meditasi 4. Mengendalikan pikiran 5. menuliskan masalahmu."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mempengaruhi_siapa",
+            "patterns": [
+                "Siapa yang mempengaruhi penyakit mental?",
+                "Siapa yang terkena penyakit mental"
+            ],
+            "responses": [
+                "Diperkirakan penyakit mental mempengaruhi 1 dari 5 orang dewasa di Amerika, dan 1 dari 24 orang dewasa memiliki penyakit mental yang serius."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "apa_penyebab",
+            "patterns": [
+                "Apa yang menyebabkan penyakit mental?",
+                "Apa yang menyebabkan penyakit mental?",
+                "Bagaimana seseorang bisa sakit jiwa?",
+                "Bagaimana seseorang bisa gangguan jiwa",
+                "Kenapa bisa kena penyakit mental?"
+            ],
+            "responses": [
+                "Beberapa bukti menunjukkan bahwa gangguan jiwa disebabkan oleh kombinasi dari beberapa faktor yaitu: biologi, psikologis dan sosial."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "contoh penyakit mental",
+            "patterns": [
+                "macam-macam penyakit mental ",
+                "macam-macam gangguan mental",
+                "macam-macam penyakit jiwa",
+                "apa aja sih penyakit jiwa",
+                "macam-macam penyakit sakit jiwa?",
+                "macam-macam penyakit gangguan jiwa",
+                "contoh penyakit mental ",
+                "contoh gangguan mental",
+                "contoh penyakit jiwa",
+                "apa aja sih penyakit jiwa",
+                "contoh penyakit sakit jiwa?",
+                "contoh penyakit gangguan jiwa",
+                "Apa saja nama penyakit mental?"
+            ],
+            "responses": [
+                "Ini ada beberapa contoh penyakit mental yang umum terjadi yaitu : Depresi, Skizofrenia, Gangguan Kecemasan, Gangguan Bipolar, Gangguan Tidur, Gangguan Makan, Obsesif-Compulsif Disorder, Gangguan Kepribadian, Sindrom Tourette, Psikosomatis, Factitious, Disosiatif, Stres Pasca-Trauma (PTSD), Kontrol Impuls,Attention Deficit Hyperactivity Disorder (ADHD)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "stres",
+            "patterns": [
+                "apa itu stres",
+                "apa itu Stres",
+                "stres adalah",
+                "Stres adalah",
+                "apa yang dimaksud stres"
+            ],
+            "responses": [
+                "Stres adalah reaksi seseorang baik secara fisik maupun emosional (mental/psikis) apabila ada perubahan dari lingkungan yang mengharuskan seseorang menyesuaikan diri. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa yang menyebabkan stres?",
+            "patterns": [
+                "Apa yang menyebabkan stres?",
+                "penyebabkan stres"
+            ],
+            "responses": [
+                "Penyebab stress adalah rasa khawatir terhadap sesuatu. Tidak memiliki banyak atau kendali dari suatu situasi. Tanggung jawab yang dianggap sangat berat. Tidak memiliki pekerjaan, aktivitas, atau perubahan dalam hidup."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa yang terjadi jika stres?",
+            "patterns": [
+                "Apa yang terjadi jika stres?",
+                "Dampak jika stres?",
+                "dampak stres"
+            ],
+            "responses": [
+                "Dampak stres karena pekerjaan tidak hanya mengganggu kejiwaan, tapi juga berdampak pada kesehatan fisik secara menyeluruh. Insomnia, sakit kepala, gangguan kepribadian, gangguan kecemasan, depresi. Penyakit kardiovaskular, hipertensi, gangguan irama jantung. Sakit perut, sembelit, diare, tukak lambung."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa ciri ciri stres?",
+            "patterns": [
+                "Apa ciri-ciri stres?",
+                "Apa ciri ciri stres?",
+                "ciri ciri orang stres"
+            ],
+            "responses": [
+                "Ciri-ciri orang stres yaitu : Sulit tidur, tidak menikmati kehidupan, perubahan napsu makan, mudah marah, gampang lelah, sulit berkonsentrasi dan mudah jatuh sakit."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa obat penghilang stres?",
+            "patterns": [
+                "obat penghilang stres?",
+                "Apa obat penghilang stres?",
+                "obat untuk orang stres"
+            ],
+            "responses": [
+                "Obat untuk penghilang stres adalah sebagai berikut : Fluoxetine, Alprazolam, Sertraline, Lorazepam."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Bagaimana cara menghadapi stres?",
+            "patterns": [
+                "Bagaimana cara mengatasi Stres?",
+                "Bagaimana cara menghadapi stres?",
+                "tips cara mengatasi stres",
+                "tips dan trik cara mengatasi stres"
+            ],
+            "responses": [
+                "Cara mengatasi stres adalah sebagai berikut : 1. Jagalah kesehatan dengan cara olahraga/ aktivitas fisik teratur, tidur cukup, makan bergizi seimbang, terapkan perilaku hidup bersih dan sehat, 2.Melakukan kegiatan sesuaikan dengan minat dan kemampuan, 3. Berpikir positif, 4. Tenangkan pikiran dan kembangkan hobi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa sumber stres terbesar?",
+            "patterns": [
+                "Sumber stres terbesar?",
+                "Apa sumber stres terbesar?",
+                "penyebab utama stres"
+            ],
+            "responses": [
+                "Faktor penyebab stres paling sering terjadi yang pertama adalah masalah emosional"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa perbedaan antara depresi dan stres?",
+            "patterns": [
+                "perbedaan antara depresi dan stres?",
+                "Apa perbedaan antara depresi dan stres?"
+            ],
+            "responses": [
+                "Stres dan depresi adalah dua kata berbeda yang sering diartikan sama. Stres adalah jenis ketegangan yang muncul akibat kehidupan sehari-hari. Sedangkan, depresi adalah perubahan suasana hati yang disebabkan oleh ketidakseimbangan hormon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kalau stres ke dokter apa?",
+            "patterns": [
+                "stres bertanya ke siapa ?",
+                "Kalau stres ke dokter apa?"
+            ],
+            "responses": [
+                "Bila diperlukan, Dokter akan merujuk Anda pada seorang psikolog atau psikiater yang akan membantu menangani stres."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apa contoh stress?",
+            "patterns": [
+                "contoh stress",
+                "Apa contoh stress?"
+            ],
+            "responses": [
+                "Contoh dari stress yaitu Rasa takut, Mudah, tersinggung/marah, Sedih,Cemas, Marah, Motivasi berkurang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Dari mana sumber stres?",
+            "patterns": [
+                "sumber stres?",
+                "Dari mana sumber stres?"
+            ],
+            "responses": [
+                "Faktor penyebab stress bisa bersumber dari beragam masalah yang sedang terjadi dalam kehidupan. Stress sering kali disebabkan oleh tekanan batin, seperti masalah keluarga, hubungan sosial, masalah finansial ataupun masalah percintaan. Selain itu, stress juga bisa dipicu oleh penyakit yang diderita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Mengapa stres tidak boleh dihilangkan sama sekali?",
+            "patterns": [
+                "apakah stres boleh dihilangkan",
+                "Mengapa stres tidak boleh dihilangkan sama sekali?"
+            ],
+            "responses": [
+                "Stress tidak boleh dihilangkan sama sekali karena dia membantu kelangsungan hidup dan memberikan dinamika hidup” (Mudjaddid, Diffy: 2005)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apakah semua orang pernah stres?",
+            "patterns": [
+                "Apakah orang lain pernah stres?",
+                "Apakah semua orang pernah stres?"
+            ],
+            "responses": [
+                "Hampir semua orang pernah mengalami stres, misalnya saat menghadapi macet, wawancara kerja, masalah keluarga, atau perihal karir dan keuangan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apakah stres dapat menjadi depresi?",
+            "patterns": [
+                "stres menjadi depresi",
+                "Apakah stres dapat menjadi depresi?"
+            ],
+            "responses": [
+                "Nah, stres berat yang tidak segera ditangani dapat berkembang menjadi gangguan kejiwaan kronis seperti depresi. Bahkan pada beberapa kasus, gejala depresi bisa muncul tanpa didahului oleh stres."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kenapa pikiran selalu kacau?",
+            "patterns": [
+                "pikiran kacau",
+                "Kenapa pikiran selalu kacau?"
+            ],
+            "responses": [
+                "Ini beberapa hal yang membuat pikiran menjadi kacau : 1.Kamu terjebak masa lalu atau bahkan di masa depan, 2. Benturan antara diri dan orang lain, 3. Terpenjara dalam penyesalan bisa jadi penyebab pikiran kacau, 4. Terpaku dalam pikiran “seharusnya”, 5. Anxiety sebagai penyebab pikiran kacau."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Komplikasi stres bisa seperti apa?",
+            "patterns": [
+                "Komplikasi Stres",
+                "Komplikasi stres bisa seperti apa?"
+            ],
+            "responses": [
+                "Stres yang dibiarkan berkepanjangan bisa menyebabkan berbagai macam masalah kesehatan, seperti berikut: Penyakit jantung. Masalah berat badan. Depresi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Dimana tempat menghilangkan stres?",
+            "patterns": [
+                "Tempat penghilang stres",
+                "Dimana tempat menghilangkan stres?"
+            ],
+            "responses": [
+                "empat menghilangkan stres adalah sebagi berikut : Pantai, Pegunungan, Tempat pepohonan hijau, Perpustakaan, Ruang kedap suara."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Depresi",
+            "patterns": [
+                "apa itu Depresi",
+                "apa itu depresi",
+                "depresi adalah",
+                "Depresi adalah",
+                "apa yang dimaksud depresi"
+            ],
+            "responses": [
+                "Depresi merupakan gangguan suasana hati yang menyebabkan penderitanya terus menerus merasa sedih. Berbeda dengan kesedihan biasa yang berlangsung selama beberapa hari, perasaan sedih pada depresi bisa berlangsung hingga berminggu Minggu atau berbulan bulan"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "waktu Depresi",
+            "patterns": [
+                "Berapa lama orang sembuh dari depresi?",
+                "apa depresi bisa sembuh"
+            ],
+            "responses": [
+                "Beberapa orang mungkin sembuh dalam beberapa minggu atau bulan dan sisanya mungkin butuh sampai bertahun tahun. Melansir dari WebMD, sekitar 20-30 persen orang yang mengalami depresi, gejalanya tidak sepenuhnya hilang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Tingkah laku orang depresi?",
+            "patterns": [
+                "Tingkah laku orang depresi?"
+            ],
+            "responses": [
+                "Mereka yang memiliki depresi biasanya memiliki beberapa gejala seperti, kehilangan energi, perubahan nafsu makan, gangguan tidur (bisa berlebihan, bisa juga kurang dari lama tidur biasanya), cemas, menurunnya kemampuan berkonsentrasi, ketidakmampuan membuat keputusan, rasa tidak tenang, perasaan tidak berguna, bersalah, kehilangan minat dan kegembiraan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apakah depresi termasuk gangguan jiwa?",
+            "patterns": [
+                "Apakah depresi termasuk gangguan jiwa?"
+            ],
+            "responses": [
+                "Depresi adalah gangguan mood, kondisi emosional berkepanjangan yang mewarnai proses berpikir, berperasaan dan berperilaku seseorang. Seseorang yang depresi memperlihatkan perasaan tidak berdaya dan kehilangan harapan, disertai perasaan sedih, kehilangan minat dan kegembiraan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apakah orang depresi bisa tertawa?",
+            "patterns": [
+                "Apakah orang depresi bisa tertawa?"
+            ],
+            "responses": [
+                "Pura-pura bahagia : Terkadang, orang yang mengalami depresi tetap bisa tertawa dan terlihat bahagia. Hal ini terjadi karena mereka berusaha menyembunyikan perasaanya"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kenapa sering ingin melukai diri sendiri?",
+            "patterns": [
+                "Kenapa sering ingin melukai diri sendiri?"
+            ],
+            "responses": [
+                "Berbagai Alasan Seseorang Menyakiti Diri Sendiri atau Self-injury kerap dilakukan untuk melampiaskan, mengalihkan perhatian, atau mengatasi emosi berlebih, misalnya stres, marah, cemas, sedih, kesepian, putus asa, mati rasa, rasa bersalah, atau benci kepada diri sendiri."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Apakah menyakiti diri sendiri itu dosa?",
+            "patterns": [
+                "Apakah menyakiti diri sendiri itu dosa?"
+            ],
+            "responses": [
+                "Melalui sebuah hadits, Rasulullah SAW bersabda: “Tidak boleh menyakiti diri sendiri dan menyakiti orang lain.” (HR. Ibnu Majah). Dari penjelasan tersebut, maka dapat disimpulkan bahwa self harm dalam Islam tidak diperbolehkan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Skizofrenia",
+            "patterns": [
+                "apa itu Skizofrenia",
+                "apa itu skizofrenia",
+                "skizofrenia adalah",
+                "Skizofrenia adalah",
+                "apa yang dimaksud skizofrenia"
+            ],
+            "responses": [
+                "Skizofrenia adalah gangguan mental yang menimbulkan keluhan halusinasi, delusi serta kekacauan berpikir dan berperilaku. Skizofrenia membuat penderitanya tidak bisa membedakan antara kenyataan dengan pikirannya sendiri."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ngomong sendiri penyakit apa?",
+            "patterns": [
+                "Ngomong sendiri penyakit apa?"
+            ],
+            "responses": [
+                "salah satu gejala skizofrenia artinya pikiran yang tak teratur serta campur aduk rata. perbedaan self-talk yang normal serta skizofrenia merupakan saat bicara sendiri memiliki urutan logis. Skizofrenia menimbulkan tanda-tanda bicara di diri sendiri dengan tak teratur."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gangguan Kecemasan",
+            "patterns": [
+                "apa itu Gangguan Kecemasan",
+                "apa itu gangguan kecemasan",
+                "gangguan kecemasan adalah",
+                "Gangguan Kecemasan adalah",
+                "apa yang dimaksud Gangguan Kecemasan"
+            ],
+            "responses": [
+                "Gangguan kecemasan merupakan gangguan mental yang membuat penderitanya merasa cemas atau takut secara berlebihan dan terus menerus dalam menjalani aktivitas sehari hari. Penderita gangguan kecemasan dapat mengalami serangan panik yang berlangsung lama dan sulit dikendalikan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gangguan Bipolar",
+            "patterns": [
+                "apa itu Gangguan Bipolar",
+                "apa itu Gangguan Bipolar",
+                "Gangguan Bipolar adalah",
+                "Gangguan Bipolar adalah",
+                "apa yang dimaksud Gangguan Bipolar"
+            ],
+            "responses": [
+                "Gangguan bipolar adalah jenis gangguan mental yang ditandai dengan perubahan suasana hati. Penderita gangguan bipolar dapat merasa sangat sedih dan putus asa dalam periode tertentu, kemudian menjadi sangat senang dalam periode yang lain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gangguan Tidur",
+            "patterns": [
+                "apa itu Gangguan Tidur",
+                "apa itu gangguan tidur",
+                "gangguan tidur adalah",
+                "Gangguan Tidur adalah",
+                "apa yang dimaksud Gangguan Tidur"
+            ],
+            "responses": [
+                "Gangguan tidur merupakan perubahan pada pola tidur yang sampai mengganggu kesehatan dan kualitas hidup penderitanya. Beberapa contoh gangguan tidur adalah sulit tidur (insomnia), mimpi buruk (parasomnia), atau sangat mudah tertidur (narkolepsi)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gangguan Makan",
+            "patterns": [
+                "apa itu Gangguan Makan",
+                "apa itu Gangguan Makan",
+                "Gangguan Makan adalah",
+                "Gangguan Makan adalah",
+                "apa yang dimaksud Gangguan Makan"
+            ],
+            "responses": [
+                "Gangguan makan terjadi dengan penderita kehilangan kontrol atas kuantitas makanan yang mereka konsumsi, antara terus menerus tanpa henti atau malah tidak mau makan hingga memuntahkan kembali makanan yang masuk sehingga tubuhnya kekurangan nutrisi makanan. Gangguan makanan ini juga bisa mempengaruhi fisik untuk tidak bisa melakukan aktifitas fisik seperti biasa karena kekurangan asupan gizi tersebut."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Obsesif-Compulsif Disorder",
+            "patterns": [
+                "apa itu Obsesif-Compulsif Disorder",
+                "apa itu Obsesif-Compulsif Disorder",
+                "Obsesif-Compulsif Disorder adalah",
+                "Obsesif-Compulsif Disorder adalah",
+                "apa yang dimaksud Obsesif-Compulsif Disorder"
+            ],
+            "responses": [
+                "Jenis gangguan mental ini membuat penderita harus melakukan kegiatan berulang. Jika tidak maka penderita akan menderita kecemasan hebat. Gangguan ini dapat terjadi pada siapa saja, baik dewasa, remaja bahkan anak anak."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": " Gangguan Kepribadian",
+            "patterns": [
+                "apa itu  Gangguan Kepribadian",
+                "apa itu  Gangguan Kepribadian",
+                " Gangguan Kepribadian adalah",
+                " Gangguan Kepribadian adalah",
+                "apa yang dimaksud  Gangguan Kepribadian"
+            ],
+            "responses": [
+                "Gangguan kepribadian ini menyebabkan penderitanya memiliki pola pikir dan perilaku yang tidak normal dan sulit untuk dirubah. Penderita gangguan ini mengalami kesulitan untuk memahami situasi dan orang lain sehingga seringkali tidak dapat berbaur dengan lingkungan sosialnya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sindrom Tourette",
+            "patterns": [
+                "apa itu Sindrom Tourette",
+                "apa itu Sindrom Tourette",
+                "Sindrom Tourette adalah",
+                "Sindrom Tourette adalah",
+                "apa yang dimaksud Sindrom Tourette"
+            ],
+            "responses": [
+                "Jenis gangguan mental ini membuat penderitanya melakukan tic yaitu ucapan atau gerakan berulang dari luar kendali penderitanya. Hal ini dapat terjadi pada anak usia 2-15 tahun dan umum terjadi pada anak laki laki daripada anak perempuan"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Psikosomatis",
+            "patterns": [
+                "apa itu Psikosomatis",
+                "apa itu Psikosomatis",
+                "Psikosomatis adalah",
+                "Psikosomatis adalah",
+                "apa yang dimaksud Psikosomatis"
+            ],
+            "responses": [
+                "Jenis gangguan mental ini memunculkan masalah fisik dan cara berpikir penderita sendiri. Gejala awal penderita ini diawali dengan rasa cemas, gelisah, stres sampai depresi. Tidak hanya orang dewasa saja tetapi anak anak juga bisa terkena gangguan ini. Masalah fisik yang muncul dari gangguan ini adalah mudah lelah, nyeri pada otot, sesak napas hingga telapak tangan berkeringat. Terkadang mereka juga cemas berlebih ketika keluhannya ringan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Factitious",
+            "patterns": [
+                "apa itu Factitious",
+                "apa itu factitious",
+                "Factitious adalah",
+                "factitious adalah",
+                "apa yang dimaksud Factitious"
+            ],
+            "responses": [
+                "Disebut juga sebagai gangguan buatan, jenis gangguan mental ini merupakan sebuah penyakit serius yang mendorong penderitanya bertindak seolah olah mereka memiliki penyakit fisik atau psikologis. Seseorang yang mengidap factitious disorder sengaja memalsukan beragam penyakit untuk menerima perhatian. Penderita gangguan ini tidak akan ragu untuk menyakiti diri sendiri agar dapat menjalani operasi yang seharusnya tidak perlu."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Disosiatif",
+            "patterns": [
+                "apa itu Disosiatif",
+                "apa itu Disosiatif",
+                "Disosiatif adalah",
+                "Disosiatif adalah",
+                "apa yang dimaksud Disosiatif"
+            ],
+            "responses": [
+                "Jenis gangguan mental ini menghilangkan kesinambungan antara pikiran, tindakan,ingatan hingga identitas. Gangguan ini sering dialami dengan seseorang yang traumatis yang mendalam sebagai bentuk pertahanan diri dari trauma tersebut."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Stres Pasca-Trauma (PTSD)",
+            "patterns": [
+                "Stres Pasca-Trauma (PTSD)",
+                "apa itu Stres Pasca-Trauma (PTSD)",
+                "apa itu Stres Pasca-Trauma (PTSD)",
+                "Stres Pasca-Trauma (PTSD) adalah",
+                "Stres Pasca-Trauma (PTSD) adalah",
+                "apa yang dimaksud Stres Pasca-Trauma (PTSD)"
+            ],
+            "responses": [
+                "Gangguan Mental ini disebabkan oleh kejadian traumatis yang menyebabkan penderita akan histeris bila melihat kejadian sama atau hampir mirip terjadi. Gangguan dapat sangat mengganggu aktivitas keseharian penderita dan menyebabkan tekanan emosional."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kontrol Impuls",
+            "patterns": [
+                "Kontrol Impuls",
+                "kontrol impuls",
+                "apa itu Kontrol Impuls",
+                "apa itu Kontrol Impuls",
+                "Kontrol Impuls adalah",
+                "Kontrol Impuls adalah",
+                "apa yang dimaksud Kontrol Impuls"
+            ],
+            "responses": [
+                "Jenis gangguan mental ini dapat diartikan dapat sebagai kesulitan seseorang dalam menahan diri untuk selalu berbuat agresif. Penderita gangguan ini kesulitan mengontrol diri sendiri sehingga kesulitan dalam mengontrol diri sendiri dan orang lain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Attention Deficit Hyperactivity Disorder (ADHD)",
+            "patterns": [
+                "Attention Deficit Hyperactivity Disorder (ADHD)",
+                "attention deficit hyperactivity disorder",
+                "apa itu Attention Deficit Hyperactivity Disorder (ADHD)",
+                "apa itu Attention Deficit Hyperactivity Disorder (ADHD)",
+                "Attention Deficit Hyperactivity Disorder (ADHD) adalah",
+                "Attention Deficit Hyperactivity Disorder (ADHD) adalah",
+                "apa yang dimaksud Attention Deficit Hyperactivity Disorder (ADHD)"
+            ],
+            "responses": [
+                "ADHD atau attention deficit Hyperactivity adalah gangguan mental yang menyebabkan penderitanya sulit fokus, impulsif dan hiperaktif yang seringkali mengganggu aktifitas serta pencapaian penderita. Penyebab attention deficit Hyperactivity utamanya masih belum diketahui dengan pasti."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pulih",
+            "patterns": [
+                "Bisakah orang dengan penyakit mental sembuh?",
+                "Apakah mungkin untuk pulih dari penyakit mental",
+                "apakah penyakit jiwa bisa disembuhkan?"
+            ],
+            "responses": [
+                "Bisa. Namun tentu saja, pengidapnya harus terlebih dahulu menjalani serangkaian pengobatan sesuai kondisi yang dialami. Gangguan mental bisa diobati dengan pemberian obat-obatan tertentu dan psikoterapi. Pada beberapa kondisi, pengidap gangguan jiwa juga akan disarankankan untuk melakukan perubahan gaya hidup menjadi lebih sehat. "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pencegahan Penyakit Mental",
+            "patterns": [
+                "apa saja cara pencegahan penyakit mental",
+                "Apa langkah-langkah pencegahan penyakit mental",
+                "Pencegahan Penyakit Mental",
+                "bagaimana mencegah penyakit mental"
+            ],
+            "responses": [
+                "Tidak semua gangguan mental dapat dicegah. Namun, ada beberapa langkah yang bisa dilakukan untuk mengurangi resiko serangan gangguan mental yaitu: Berpartisipasi aktif dalam pergaulan dan aktivitas yang disenangi, Berbagi dengan teman dan keluarga saat menghadapi masalah, Berolahraga rutin, makan teratur dan mengelola stres dengan baik, Menetapkan jadwal tidur dan bangun tidur yang teratur setiap harinya, Mengikuti latihan untuk menenangkan pikiran atau relaksasi, misalnya dengan meditasi dan yoga, Tidak merokok dan tidak menggunakan NAPZA, Membatasi konsumsi minuman beralkohol dan minuman berkafein, Mengonsumsi obat yang diresepkan dokter sesuai dengan dosis dan aturan pakai, Memeriksakan diri ke dokter atau psikolog untuk menjalani skrining awal kesehatan mental atau bila muncul gejala gangguan mental."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "find_help",
+            "patterns": [
+                "Bagaimana menemukan profesional kesehatan mental untuk diri saya sendiri",
+                "Bagaimana menemukan profesional kesehatan mental?"
+            ],
+            "responses": [
+                "Merasa nyaman dengan profesional yang bekerja dengan Anda atau anak Anda sangat penting untuk keberhasilan perawatan. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan penelitian. Mulailah dengan mencari penyedia di daerah Anda."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "treatement_options",
+            "patterns": [
+                "Pilihan pengobatan apa yang tersedia?",
+                "Bagaimana seseorang bisa pulih?"
+            ],
+            "responses": [
+                "Sama seperti ada berbagai jenis obat untuk penyakit fisik, pilihan pengobatan yang berbeda tersedia untuk individu dengan penyakit mental. Pengobatan bekerja secara berbeda untuk orang yang berbeda. Penting untuk menemukan apa yang terbaik untuk Anda atau anak Anda."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tips pengobatan",
+            "patterns": [
+                "Bagaimana cara terlibat dalam pengobatan?",
+                "Apa yang harus saya ingat jika saya memulai perawatan?"
+            ],
+            "responses": [
+                "Sejak memulai perawatan adalah langkah besar bagi individu dan keluarga, itu bisa sangat melelahkan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "profesional_types",
+            "patterns": [
+                "Apa perbedaan antara profesional kesehatan mental?",
+                "Apa saja jenis profesional kesehatan mental yang ada?"
+            ],
+            "responses": [
+                "Ada banyak jenis profesional kesehatan mental. Berbagai penyedia dan layanan mereka mungkin membingungkan. Masing-masing memiliki berbagai tingkat pendidikan, pelatihan, dan mungkin memiliki bidang keahlian yang berbeda. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan beberapa penelitian. ."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kanan_profesional",
+            "patterns": [
+                "Bagaimana saya bisa menemukan seorang profesional kesehatan mental yang benar?",
+                "Bagaimana menemukan profesional kesehatan mental yang tepat?"
+            ],
+            "responses": [
+                "Merasa nyaman dengan profesional yang bekerja dengan Anda atau anak Anda sangat penting untuk keberhasilan perawatan Anda. Menemukan profesional yang paling sesuai dengan kebutuhan Anda mungkin memerlukan beberapa penelitian."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Autis",
+            "patterns": [
+                "Autis itu apa artinya?",
+                "Apa itu autis?",
+                "Pengertian dari autis",
+                "Autis adalah?",
+                "apa yang di maksud autis?"
+            ],
+            "responses": [
+                "Attention Deficit and Hyperactivity Disorder (ADHD) lebih dikenal sebagai gangguan pemusatan perhatian dan hiperaktivitas, sementara Autism Spectrum Disorder (ASD) lebih banyak dikenal sebagai autisme. Kedua gangguan ini adalah gangguan mental yang beronset pada masa kanak dan remaja."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Penyebab",
+            "patterns": [
+                "Anak autis disebabkan oleh apa?",
+                "Apa penyebab autis?",
+                "Kenapa bisa autis?",
+                "Bagai mana bisa terjadi autis"
+            ],
+            "responses": [
+                "Menurut National Institute of Neurological Disorders and Stroke (NINDS), autisme disebabkan oleh kombinasi faktor genetik dan lingkungan. Penelitian terbaru mengonfirmasi beberapa kelainan genetik yang dapat memengaruhi seseorang terhadap autisme."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "IQ",
+            "patterns": [
+                "Anak autis IQ nya berapa?",
+                "Berapa IQ anak autis?",
+                "Seberapa tinggi IQ anak autis?"
+            ],
+            "responses": [
+                "Sekitar 50 persen anak autis memiliki IQ di bawah 50. Namun, standar untuk tes kecerdasan menggunakan keterampilan seperti menjawab pertanyaan, mengikuti arahan, dan mengidentifikasi item, yang dipelajari anak autis nanti atau melalui intervensi terapeutik."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Menular?",
+            "patterns": [
+                "Apakah autis itu menular?",
+                "Bisakah autis menular?"
+            ],
+            "responses": [
+                "Gangguan perkembangan ini biasanya memengaruhi kemampuan anak untuk berkomunikasi, berinteraksi sosial dan seringkali muncul perilaku yang kurang lazim. Autisme tidak menular, gangguan ini dapat terjadi pada setiap lapisan masyarakat, dari strata terendah hingga strata tinggi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Cita",
+            "patterns": [
+                "Apakah anak autis bisa jatuh cinta?",
+                "Bisakah anak autis merasakan jatuh cinta?"
+            ],
+            "responses": [
+                "'Anak autis juga merasakan jatuh cinta, hanya saja dia tidak tahu aturan-aturan sosial', ujar Dr. Adriana Ginanja, MS, psikolog sekaligus pendiri sekolah khusus anak autis 'Mandiga', saat dihubungi detikHealth, Rabu (19/12/2012). 'Remaja autis sama dengan remaja-remaja lainnya yang juga bisa merasakan cinta.'"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Pintar",
+            "patterns": [
+                "Kenapa anak autis lebih pintar?",
+                "Apakah anak autis pintar",
+                "Apakah anak autis cerdas?"
+            ],
+            "responses": [
+                "Orang dengan autisme biasanya cerdas karena mereka bisa dengan mudah mengingat hal-hal yang pernah ditemuinya. Saat mereka melihat orang tua atau gurunya memainkan suatu alat musik, mereka akan merekam kejadian tersebut dengan baik dalam memorinya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Kelebihan",
+            "patterns": [
+                "Apa Kelebihan anak autis?",
+                "Kelebihhan anak autis",
+                "Apakah anak autis punya kelebihan?"
+            ],
+            "responses": [
+                "\n 1. Konsentrasi yang sangat tinggi \n 2. tDaya ingat tajam \n 3. Memerhatikan detail \n 4. Lebih mengandalkan logika daripada emosi"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Usia",
+            "patterns": [
+                "Berapa lama hidup orang autis?",
+                "Batas usia orang autis?",
+                "Apakah autis punya batas usia?"
+            ],
+            "responses": [
+                "Studi yang dipublikasi di British Journal of Psychiatry tersebut menunjukkan bahwa rata-rata orang dengan autisme meninggal 16 tahun lebih cepat dibandingkan populasi umumnya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Batas autis",
+            "patterns": [
+                "Anak autis sampai umur berapa?",
+                "Berapa lama anak autis bisa sembuh?",
+                "Usia berapa autis bisa sembuh?"
+            ],
+            "responses": [
+                "Penelitian menunjukkan kalau anak autis akan sembuh pada usia 18 sampai 21 tahun. Menurut penelitian, anak tidak lagi menunjukkan kesulitan dalam pidato maupun berkomunikasi, mengenali wajah orang atau interaksi sosial dan beberapa perilaku lainnya."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Bahaya autis",
+            "patterns": [
+                "Apakah anak autis bisa tertawa?",
+                "Autis bisa tertawa?",
+                "Bisakah anak autis tertawa?"
+            ],
+            "responses": [
+                "Dijelaskan dr Yulia Darmawi dalam seminar tentang autisme di RS Budi Kemuliaan, tertawa sendiri pada anak autis umumnya dikarenakan asupan yang mengandung phenol."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Jenis",
+            "patterns": [
+                "Berapa macam autis?",
+                "Jenis autis",
+                "Sebutkan jenis autis"
+            ],
+            "responses": [
+                "Inilah 3 Jenis Autisme yang Bisa Serang Anak \n 1. Sindrom Rett,Sindrom Rett adalah salah satu kelainan genetik yang memengaruhi perkembangan otak anak. Gejala yang muncul biasanya saat anak menginjak usia 1 hingga 1,5 tahun. Gangguan tumbuh kembang terlihat pada kemampuan berbicara anak yang terlambat hingga alami gangguan bergerak. Umumnya, gejala yang muncul pada pengidap sindrom Rett dianggap sebagai autisme atau keterlambatan perkembangan non-spesifik. Ada beberapa pengobatan yang bisa dilakukan, seperti terapi bahasa, terapi okupasi, dan fisioterapi.\n 2. Gangguan Disintegratif Anak Gangguan disintegratif anak, dikenal juga sebagai sindrom Heller adalah salah satu gangguan ketika tumbuh kembang anak berjalan normal hingga anak berusia 3-4 tahun. Namun pada bulan berikutnya, anak kehilangan kemampuan, seperti aspek bahasa, sosial, motorik, dan mental. Sindrom Heller berhubungan langsung dengan sistem saraf otak. Pengobatan untuk mengatasi kondisi ini umumnya dilakukan dengan terapi perilaku untuk mengajarkan kembali kemampuan anak yang perlahan menurun.\n 3. Sindrom Asperger Sindrom ini umumnya menyerang anak-anak dan bertahan hingga anak beranjak dewasa. Pengidap Asperger memiliki kecerdasan yang baik dan pandai dalam berbahasa, namun terlihat kesulitan ketika akan berkomunikasi dan berinteraksi dengan orang disekitarnya. Gejala terlihat seperti kesulitan berinteraksi, tidak ekspresif, kurang peka terhadap lingkungan, obsesif, repetitif, kurang menyukai perubahan, adanya gangguan motorik dan gangguan fisik."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Menatap",
+            "patterns": [
+                "Mengapa anak autis tidak mau menatap mata?",
+                "Apakah anak autis bisa saling menatap mata?",
+                "Bagai mana tatapan mata anak autis?"
+            ],
+            "responses": [
+                "Anak-anak dengan autisme sering mengalami kesulitan melakukan kontak mata kepada lawan bicaranya. Sebuah penelitian baru menunjukkan hal ini mungkin disebabkan sebagian otaknya memproses informasi visual, bukannya murni defisit sosial."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Pantangan",
+            "patterns": [
+                "Apa pantangan anak autis?",
+                "Apa makanan anak autis?",
+                "Bagai mana pola makan anak autis?"
+            ],
+            "responses": [
+                "Bagi anak autis hindari makanan tersebut dan diganti dengan ubi, jagung, bihun dan singkong. Kasein adalah protein yang ditemukan pada banyak pada produk makanan. Yang termasuk makanan yang mengandung kasein yaitu olahan dari susu, seperti yagurt, keju, mentega dan es krim."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Sembuh",
+            "patterns": [
+                "Apakah autis bisa sembuh total?",
+                "Apakah benar anak autis bisa sembuh?",
+                "Anak autis bisa sembuh?"
+            ],
+            "responses": [
+                "meskipun tidak sepenuhnya, obat-obatan dan terapi dapat membantu mengurangi gejala autisme dan mendukung kapasitas fungsional. Dokter merekomendasikan jenis terapi yang anak penderita autis perlukan."
+            ],
+            "context": []
+        },
+        {
+            "tag": "histeria",
+            "patterns": [
+                "Bolehkah anak autis makan mie instan?",
+                "Apakah mie instan boleh dimakan anak autis?"
+            ],
+            "responses": [
+                "Salah satu makanan yang sebaiknya tidak diberikan pada anak autisme adalah mie dan sejenis pasta."
+            ],
+            "context": []
+        },
+        {
+            "tag": "histeria",
+            "patterns": [
+                "Kapan tau anak autis?",
+                "Umur berapa anak autis terlihat?",
+                "Apa ciri-ciri anak autis?"
+            ],
+            "responses": [
+                "Ciri-ciri anak autis umumnya mulai terlihat jelas saat ia menginjak usia 1–2 tahun."
+            ],
+            "context": []
+        },
+        {
+            "tag": "histeria",
+            "patterns": [
+                "Bagaimana anak autis setelah dewasa?",
+                "Bagai mana anak autis ketika dewasa?"
+            ],
+            "responses": [
+                "rang dewasa dengan autisme mungkin juga memiliki pola pikir dan perilaku yang tidak fleksibel serta dapat melakukan tindakan berulang. Tanda dan gejala umum autisme pada orang dewasa dapat mencakup: Kesulitan memulai percakapan. Kesulitan membuat atau mempertahankan persahabatan dekat."
+            ],
+            "context": []
+        },
+        {
+            "tag": "Histeria",
+            "patterns": [
+                "Histeria itu seperti apa?",
+                "Apa itu histeria",
+                "Apa yang dimaksud histeria?",
+                "Histeria"
+            ],
+            "responses": [
+                "Halodoc, Jakarta – Histeria adalah istilah yang sering digunakan untuk menggambarkan suatu perilaku emosional yang tampaknya berlebihan dan di luar kendali."
+            ],
+            "context": []
+        },
+        {
+            "tag": "histeria",
+            "patterns": [
+                "Bagaimana penanganan penderita histeria?",
+                "Apa langkah-langkah penanganan histeria?",
+                "pertolongan pertama penderita histeria?"
+            ],
+            "responses": [
+                "Adapun Langkah-langkah penanganan / pertolongan pertama bagi penderita Histeria antara lain : \n 1. Tenangkan korban \n 2. Pisahkan dari keramaian \n 3. Letakkan di tempat yang tenang \n 4. Awasi"
+            ],
+            "context": [
+                "jaga_sikap"
+            ]
+        },
+        {
+            "tag": "histeria",
+            "patterns": [
+                "Apakah kesurupan itu gangguan jiwa?",
+                "Apakah kesurupan sama dengan gangguan jiwa?"
+            ],
+            "responses": [
+                "Siswanto SPsi MSi menyatakan, kesurupan merupakan gangguan mental disosiatif. Dari penelitiannya kasus-kasus kesurupan banyak terjadi dari kalangan orang yang taat beragama."
+            ],
+            "context": []
+        },
+        {
+            "tag": "histeria",
+            "patterns": [
+                "Apa Penyebab Histeria? ",
+                "Penyebab histeria",
+                "Apakah histeria ada penyebabnya?"
+            ],
+            "responses": [
+                "Seiring waktu, teori tentang apa yang menyebabkan histeria telah berubah. Kini, penyebab gangguan disosiatif dan somatik sering kali lebih mengarah pada kondisi psikologis. Gangguan disosiatif umumnya disebabkan oleh pengalaman beberapa jenis trauma."
+            ],
+            "context": [
+                "search_blood_pressure_by_patient_id"
+            ]
+        },
+        {
+            "tag": "Paranoid",
+            "patterns": [
+                "Apa yang dimaksud dengan paranoid?",
+                "Apa itu paranoid?"
+            ],
+            "responses": [
+                "Paranoid adalah masalah psikologis yang ditandai dengan munculnya rasa curiga dan takut berlebihan. Orang yang paranoid cenderung sulit atau bahkan tidak bisa memercayai orang lain dan memiliki pola pikir yang berbeda dari kebanyakan orang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "paranoid",
+            "patterns": [
+                "Apa ciri ciri paranoid?",
+                "Ciri paranoid",
+                "Ciri khusus paranoid"
+            ],
+            "responses": [
+                "Gangguan kepribadian paranoid memiliki ciri-ciri khusus yang dapat dikenali. Ciri-ciri gangguan kepribadian Paranoid sebagai berikut: Kepekaan berlebihan terhadap kegagalan dan penolakan. Kecenderungan untuk tetap menyimpan dendam,misalnya menolak untuk memaafkan suatu penghinaan dan luka hati atau masalah kecil."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Paranoid",
+            "patterns": [
+                "Apa penyebab sakit paranoid?",
+                "Peneyebab paranoid"
+            ],
+            "responses": [
+                "Penyebab Paranoid: Penyebab gangguan kepribadian paranoid belum diketahui hingga saat ini. Namun, penelitian menduga bahwa paranoid terkait dengan faktor genetik dan gangguan psikologis, seperti skizofrenia atau gangguan delusi. Paranoid lebih banyak dialami oleh pria dibandingkan wanita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "paranoid",
+            "patterns": [
+                "Apakah paranoid bisa sembuh?",
+                "Paranoid sembuh",
+                "Bisakah paranoid sembuh?"
+            ],
+            "responses": [
+                "Proses mengatasi gangguan kepribadian paranoid sendiri dapat dilakukan dengan dua cara, yaitu psikoterapi dan obat-obatan. Dalam kasus yang parah, proses pengobatan dapat sekaligus dilakukan secara bersamaan. Apapun tindakan yang digunakan akan disesuaikan dengan intensitas gejala yang muncul pada pengidap."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "paranoid",
+            "patterns": [],
+            "responses": [
+                "Bagaimana cara menghilangkan rasa paranoid?",
+                "Cara mengatasi paranoid"
+            ],
+            "context": [
+                "sCara Mengatasi Paranoid \n 1. Terapi Psikologis: Cara mengatasi paranoid yang pertama adalah dengan terapi psikologis. Tak perlu khawatir atau takut untuk berkonsultasi kepada psikolog. Ahli psikolog akan membantumu menangani segala masalah yang sedang dihadapi. Terapi dari psikolog juga bisa membantu menghilangkan pikiran negatif dan trauma.\n 2. Terapi Obat: Untuk seseorang yang mengalami paranoid berlebihan, dapat berkonsultasi pada psikiater. Sehingga dokter akan memberikan terapi obat khusus untuk menyembuhkan gejalanya. Obat-obatan ini akan diberikan pada seseorang yang mengalami paranoid dengan gejala parah. Obat yang biasanya diresepkan oleh dokter adalah antidepresan, antipsikotik, dan anti-kecemasan.\n 3. Detoksifikasi: Paranoid dapat dialami oleh seorang pecandu obat-obatan terlarang. Biasanya dokter akan melakukan terapi detoksifikasi untuk menghilangkan zat-zat kimia dari obat-obatan terlarang tersebut. Jangan lupa untuk melakukan kegiatan positif untuk mendukung kesembuhan mental dan membantumu berpikiran positif."
+            ]
+        },
+        {
+            "tag": "paranoid",
+            "patterns": [
+                "Apakah paranoid termasuk penyakit mental?",
+                "Paranoid sama dengan penyakit mental?",
+                "Paranoid termasuk penyakit apa?"
+            ],
+            "responses": [
+                "Gangguan kepribadian paranoid adalah kondisi kesehatan mental yang cukup umum terjadi. Menurut sebuah studi, paranoia merupakan salah satu jenis gangguan kejiwaan yang paling umum bila dibandingkan dengan kondisi mental lainnya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Skizo",
+            "patterns": [
+                "Apa itu orang Skizo?",
+                "apa itu skizo",
+                "skizo?"
+            ],
+            "responses": [
+                "Skizofrenia adalah gangguan kejiwaan kronis ketika pengidapnya mengalami halusinasi, delusi, kekacauan dalam berpikir, dan perubahan sikap. Umumnya pengidap skizofrenia mengalami gejala psikosis, yaitu kesulitan membedakan antara kenyataan dengan pikiran pada diri sendiri."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skizo",
+            "patterns": [
+                "Apa yang di rasakan penderita skizofrenia?",
+                "penderita skizo",
+                "seperti apa rasa skizo?"
+            ],
+            "responses": [
+                "Skizofrenia sendiri merupakan gangguan mental yang terjadi dalam jangka panjang. Ketika menyerang seseorang, skizofrenia akan membuat pengidapnya mengalami delusi, halusinasi, kekacauan dalam berpikir, mengasingkan diri dari orang lain, hingga mengalami perubahan perilaku."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skizo",
+            "patterns": [
+                "Apa obat penyakit skizofrenia?",
+                "obat skizo"
+            ],
+            "responses": [
+                "Obat skizofrenia atau antipsikotik bekerja dengan cara mengubah aktivitas zat-zat kimia tertentu di dalam otak. Obat ini ada yang diberikan dalam bentuk obat minum seperti tablet, kapsul, atau sirop, dan ada juga yang dalam bentuk obat suntik. Pemberian obat antipsikotik bertujuan untuk mengurangi gejala skizofrenia."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skizo",
+            "patterns": [
+                "Apakah skizofrenia pintar?",
+                "apa skizo cerdas?",
+                "skizo pintar"
+            ],
+            "responses": [
+                "Orang dengan Skizofrenia Tidak Cerdas? Pasien skizofrenia terbukti cerdas, atau lebih tepatnya 'jenius gila'. Sebuah studi yang diterbitkan dalam jurnal Nature menganalisis keterkaitan antara orang sukses dan potensi mereka sebagai penderita gangguan mental."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skizo",
+            "patterns": [
+                "Apa skizofrenia sama dengan gila?",
+                "skizo orang gila?"
+            ],
+            "responses": [
+                "Kenyataannya, penderita skizofrenia bukanlah orang gila. Gangguan skizofrenia kerap mendapatkan stigma negatif oleh masyarakat."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skizo",
+            "patterns": [
+                "Cara menghadapi penderita skizofrenia",
+                "bagai mana menghadapi penderita skizo"
+            ],
+            "responses": [
+                "Jika ada orang-orang terdekat atau keluarga Anda yang menderita skizofrenia, berikut ini adalah beberapa hal yang dapat Anda lakukan: \n 1. Beri mereka jarak yang cukup Penderita skizofrenia sering kali merasa paranoid, yang membuatnya selalu merasa curiga jika orang-orang di sekitarnya akan membahayakan dirinya. Mereka bisa saja tiba-tiba menjadi agresif untuk menjaga diri, maka untuk menghindari hal tersebut, sebisa mungkin Anda memberi jarak yang cukup. Contoh sederhana yang dapat Anda lakukan adalah dengan membiarkan saat mereka ingin sendirian di kamar.\n 2. Hindari stimulasi yang membuat mereka makin paranoid Jauhkan benda-benda yang dapat memicu semakin tingginya perasaan paranoid para penderita skizofrenia. Contohnya adalah televisi. Penderita paranoid dapat merasa jika berita atau film yang diputar sedang membicarakan dirinya.\n 3. Jauhkan benda-benda berbahaya Saat penderita skizofrenia sudah terlalu paranoid, mereka akan melakukan apa saja untuk membela diri dari ancaman yang sebenarnya tidak nyata. Mereka akan mengumpulkan benda apa pun yang dapat dijadikan senjata. Oleh karena itu, demi menjaga keselamatan orang-orang di sekitar penderita skizofrenia, segera amankan dan jauhkan benda-benda berbahaya dari mereka.\n 4. Selamatkan penderita skizofrenia dari keinginan bunuh diri Penderita skizofrenia yang mengalami waham atau halusinasi parah tak lagi sekadar paranoid dengan sekitarnya, tapi juga memiliki kecenderungan untuk bunuh diri. Maka dari itu, selalu awasi apa yang mereka lakukan dan jauhkan benda-benda berbahaya di sekitarnya.\n 5. Terhubung dengan layanan kesehatan Pastikan penderita skizofrenia mendapat perawatan yang tepat dari dokter spesialis kesehatan jiwa atau psikiater. Kini, tidak hanya di rumah sakit besar, beberapa Puskesmas pun telah memiliki layanan untuk masalah kejiwaan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "skizo",
+            "patterns": [
+                "Berapa jenis skizofrenia?",
+                "jenis skizo",
+                "sebutkan jenis-jenis skizo"
+            ],
+            "responses": [
+                "Berikut 5 jenis skizofrenia yang klasifikasinya sempat dijadikan acuan oleh para ahli dahulu: \n 1. Skizofrenia Paranoid: Skizofrenia jenis ini merupakan yang paling sering muncul gejalanya, termasuk di antaranya adalah delusi dan halusinasi. Pengidap skizofrenia paranoid biasanya menunjukkan perilaku yang tidak normal seakan ia sedang diawasi, sehingga ia kerap menunjukkan rasa marah, gelisah, bahkan benci terhadap seseorang. Namun, mereka yang mengalami skizofrenia jenis ini masih memiliki fungsi intelektual dan ekspresi yang tergolong normal.\n 2. Skizofrenia Katonik Skizofrenia katonik ditandai dengan adanya gangguan pergerakan. Pengidap skizofrenia jenis ini cenderung tidak bergerak atau justru bergerak hiperaktif. Pada beberapa kasus juga ditemukan sama sekali tidak mau berbicara, atau senang mengulangi perkataan orang lain. Pengidap skizofrenia katonik juga sering kali tidak memedulikan kebersihan dirinya, serta tidak mampu menyelesaikan aktivitas yang dilakukan.\n 3. Skizofrenia Tidak teratur Skizofrenia tidak teratur merupakan jenis yang memiliki kemungkinan paling kecil untuk disembuhkan. Pengidap skizofrenia jenis ini ditandai dengan ucapan dan tingkah laku yang tidak teratur dan sulit dipahami. Terkadang mereka bisa tertawa tanpa alasan jelas, atau terlihat sibuk dengan persepsi yang mereka miliki.\n 4. Skizofrenia Diferentiatif Skizofrenia jenis ini merupakan yang paling sering terjadi. Gejala yang ditimbulkan adalah kombinasi dari beragam subtipe dari skizofrenia lainnya.\n 5. Skizofrenia Residual: Pengidap skizofrenia residual biasanya tidak menunjukkan gejala umum dari skizofrenia seperti berkhayal, halusinasi, tidak teratur dalam berbicara dan berperilaku. Mereka baru mendapat diagnosis setelah satu dari empat jenis skizofrenia lain telah terjadi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pengertian_insomnia",
+            "patterns": [
+                "Apa itu insomnia?",
+                "Apa pengertian insomnia"
+            ],
+            "responses": [
+                "Insomnia adalah gangguan yang menyebabkan penderitanya sulit tidur atau tidak cukup tidur, meski terdapat cukup waktu untuk melakukannya. Gangguan ini bisa berdampak pada aktivitas penderita keesokan harinya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gejala_insomnia",
+            "patterns": [
+                "Gejala apa yang terjadi pada insomnia?"
+            ],
+            "responses": [
+                "Insomnia ditandai dengan sulit tidur atau tidur yang tidak nyenyak. Keluhan tersebut dapat memicu gejala lain, seperti lelah dan mengantuk di siang hari, serta sulit fokus dalam beraktivitas."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pengobatan_dan_pencegahan_insomnia",
+            "patterns": [
+                "Bagaimana cara mengobati insomnia?",
+                "Bagaimana cara mencegah insomnia?"
+            ],
+            "responses": [
+                "Pengobatan insomnia tergantung pada penyebab yang mendasarinya dan kondisi pasien. Metode yang dapat diberikan oleh dokter adalah psikoterapi atau konseling, obat-obatan, atau kombinasi keduanya.",
+                "Insomnia dapat dicegah dengan melakukan beberapa cara sederhana, Menghindari banyak makan dan minum sebelum tidur, Membatasi konsumsi minuman beralkohol dan berkafein, Berusaha aktif di siang hari agar terhindar dari tidur siang"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pengertian_insecure",
+            "patterns": [
+                "Apa itu insecure?",
+                "Apa pengertian insecure?"
+            ],
+            "responses": [
+                "Insecure adalah perasaan cemas, ragu, atau kurang percaya diri sehingga membuat seseorang merasa tidak aman. Akibatnya, orang yang insecure bisa saja merasa cemburu, selalu menanyakan pendapat orang lain tentang dirinya, atau bahkan membandingkan dirinya dengan orang lain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "penyebab_insecure",
+            "patterns": [
+                "Apa penyebab insecure?"
+            ],
+            "responses": [
+                "Penyebab Insecure adalah karena pernah mengalami kegagalan, mendapatkan penilaian kurang baik dari orang, atau akibat memiliki sifat perfeksionis."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mengatasi_insecure",
+            "patterns": [
+                "Bagaimana mengatasi insecure?"
+            ],
+            "responses": [
+                "Untuk mengatasi rasa insecure dan mencegahnya agar tidak terus berlanjut, ada beberapa upaya yang bisa dilakukan, yaitu lawan pikiran negatif, Terima hasil yang tidak sesuai keinginan, Ubah kegagalan menjadi motivasi, Luangkan waktu dengan orang terdekat, Bangun harga diri dan keyakinan diri."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pencegahan_insecure",
+            "patterns": [
+                "Bagaimana pencegahan insecure?",
+                "Bagaimana cara mencegah insecure?"
+            ],
+            "responses": [
+                "Pencegahan Insecure dapat dicegah dengan melakukan beberapa upaya yaitu : Mengidentifikasi situasi atau hal yang memicu perasaan insecure, Membangun rasa percaya diri dan self-esteem, Mendahulukan kepentingan atau kebutuhan diri sendiri, Menepis pikiran negatif dengan mengingat hal-hal kecil yang berdampak positif, Menerima hasil yang tidak sesuai keinginan dengan lapang dada, Menjadikan kegagalan sebagai suatu motivasi untuk menjadi lebih baik, Meluangkan waktu dengan orang terdekat."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "narsistik",
+            "patterns": [
+                "Apa itu Narsistik?",
+                "Apa pengertian Narsistik?"
+            ],
+            "responses": [
+                "Narsistik adalah kondisi ketika seseorang merasa dirinya lebih baik dari orang lain sehingga butuh dikagumi dan mendapat perhatian lebih. Kondisi ini dapat menyebabkan penderitanya menjadi egois dan memiliki sedikit empati terhadap orang lain sehingga menimbulkan masalah dalam interaksi sosial dan Narsistik adalah salah satu jenis gangguan kepribadian. Penderita narsistik umumnya terlihat sangat percaya diri. Namun, hal tersebut sebenarnya untuk menutupi harga dirinya yang sangat rapuh, misalnya hanya karena dikritik oleh orang lain."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "penyebab_narsistik",
+            "patterns": [
+                "Apa penyebab narsistik?",
+                "Apa faktor narsistik?"
+            ],
+            "responses": [
+                "Penyebab Narsistik belum diketahui secara pasti apa yang menyebabkan gangguan kepribadian narsistik. Namun, narsistik diduga terkait dengan sejumlah faktor berikut: Faktor genetik, Faktor lingkungan, dan Faktor neurobiologi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gejala_narsistik",
+            "patterns": [
+                "Apa gejala narsistik?"
+            ],
+            "responses": [
+                "Gejala Narsistik adalah Mementingkan diri sendiri (egois), Merasa berhak dan perlu dikagumi secara berlebihan dan terus-menerus, Merasa lebih baik dari orang lain (superior) meski tidak memiliki pencapaian apa pun, Merasa istimewa dan hanya ingin bergaul dengan orang yang dianggap setara dengannya, Membanggakan pencapaian atau bakat diri sendiri secara berlebihan, Sering menghayal tentang kesuksesan, kekuasaan, kecerdasan, kecantikan, atau pasangan yang sempurna."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pengobatan_narsistik",
+            "patterns": [
+                "Bagaimana cara mengatasi narsistik"
+            ],
+            "responses": [
+                "Penyakit mental adalah kondisi kesehatan yang mengganggu pikiran, emosi, hubungan, dan fungsi sehari-hari seseorang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Fobia Sosial",
+            "patterns": [
+                "Apa itu Fobia Sosial?"
+            ],
+            "responses": [
+                "Social anxiety disorder atau fobia sosial adalah gangguan kesehatan mental yang ditandai dengan rasa takut akan diawasi, dihakimi, atau dipermalukan oleh orang lain. Fobia sosial juga dikenal dengan istilah gangguan kecemasan sosial."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "penyebab_fobiasosial",
+            "patterns": [
+                "Apa penyebab Fobia Sosial?"
+            ],
+            "responses": [
+                "Penyebab Fobia Sosial biasanya Fobia sosial dipicu oleh situasi yang baru atau hal yang belum pernah dilakukan sebelumnya, misalnya berpidato atau menyampaikan presentasi di depan umum. Meskipun penyebab pastinya belum diketahui, kondisi ini diduga terkait dengan beberapa faktor seperti, Peristiwa masa lalu, Keturunan atau pola asuh, dan Struktur otak."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Gejala_fobiasosial",
+            "patterns": [
+                "Gejala seperti apa ketika Fobia Sosial muncul?"
+            ],
+            "responses": [
+                "Gejala Fobia Sosial bisa tampak khususnya dalam situasi, Berkencan, Bertatapan mata dengan orang lain, Berinteraksi dengan orang asing, Makan di hadapan orang lain, Bekerja atau bersekolah, Memasuki ruangan penuh orang, Menghadiri pesta atau acara pertemuan, Oleh karena itu, penderita biasanya akan menghindari sejumlah situasi di atas."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "yang_dirasakan_penderita",
+            "patterns": [
+                "Apa yang dirasakan si penderita ketika mempunyai Fobia Sosial?"
+            ],
+            "responses": [
+                "Rasa takut yang dirasakan penderita fobia sosial tidak hanya berlangsung sesaat, melainkan menetap, dan akan menimbulkan gejala fisik yang berupa, Wajah memerah, Bicara terlalu pelan, Postur tubuh yang kaku, Otot menjadi tegang, Keringat berlebih, Mual, Pusing, Jantung berdebar, Sesak napas."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "komplikasi",
+            "patterns": [
+                "Apa yang terjadi jika penderita Fobia Sosial sudah parah?"
+            ],
+            "responses": [
+                "Komplikasi Fobia sosial yang tidak ditangani dapat menyebabkan penderitanya mengalami kondisi seperti, Perasaan rendah diri, Tidak dapat berinteraksi dengan orang lain, Tidak mampu bersikap tegas, Sangat sensitif terhadap kritikan, Kondisi di atas dapat mengganggu prestasi dan produktivitas penderita, baik di sekolah maupun tempat kerja. Lebih parahnya, penderita dapat mengalami kecanduan alkohol, penyalahgunaan NAPZA, hingga percobaan bunuh diri."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pengobatan",
+            "patterns": [
+                "Apakah Fobia Sosial bisa disembuhkan?"
+            ],
+            "responses": [
+                "Jelas bisa, Fobia sosial dapat ditangani dengan menggunakan dua metode, yaitu psikoterapi dan pemberian obat-obatan, atau kombinasi keduanya."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pencegahan",
+            "patterns": [
+                "Bagaimana cara mencegah Fobia Sosial?"
+            ],
+            "responses": [
+                "Pencegahan Fobia Sosial Belum diketahui cara untuk mencegahnya. Namun, ada beberapa cara yang bisa dilakukan untuk menghindari keparahan gejala jika Anda mengalami fobia sosial, yaitu Menghindari penggunaan NAPZA, Menjalani terapi relaksasi, seperti teknik pernapasan untuk meredakan stres, Memberanikan diri menghadapi situasi yang memicu cemas secara bertahap, Berkonsultasi dengan psikolog atau dokter terkait metode pengobatan yang tepat bagi Anda."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "panic attack",
+            "patterns": [
+                "Apakah panic attack bisa terjadi ke semua orang?",
+                "Apakah semua orang bisa mengalami panic attack?",
+                "Orang-orang yang seperti apa yang bisa mengalami panic attack?"
+            ],
+            "responses": [
+                "Bisa",
+                "Bisa, karna semua orang pasti memliki titik lemah pada mentalnya",
+                "Orang yang mudah memendam semua pikirannya sendiri tanpa berbagi dengan orang lain, atau curhat ke orang lain"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "panic attack",
+            "patterns": [
+                "Penyebab sering merasa panik dan cemas yang berlebihan tanpa alasan?",
+                "Kenapa sering terjadi panic attack tanpa alasan?",
+                "Akhir-akhir ini saya sering merasa cemas tidak enak perasaanya itu kenapa?"
+            ],
+            "responses": [
+                "Kondisi yang anda alami bisa saja merupakan gangguan kecemasan jika gejala sudah dialami dan menetap dalam waktu lama hingga lebih dari 6 bulan.",
+                "Karena pernah mengalami peristiwa traumatis yang membuat trauma psikologis",
+                "karena pernah mengalami peristiwa traumatis yang membuat trauma psikologis, riwayat stres berat, memiliki riwayat keluarga dengan gangguan kecemasan, efek samping kafein, riwayat kecanduan narkoba, alkohol, pornografi, atau kecanduan lainnya, dan bisa juga disebabkan oleh penyakit kronis seperti penyakit tiroid."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "panic attack",
+            "patterns": [
+                "Apa itu panic attack?",
+                "Jelaskan apa panic attack",
+                "Panic attac itu apa?"
+            ],
+            "responses": [
+                "Panic attack atau serangan panik merupakan suatu masalah kesehatan yang terjadi di masyarakat. Serangan panik muncul secara kebetulan dan tidak diharapkan. Saat serangan panik berlangsung kamu akan memiliki ketakutan dan merasa khawatir secara terus menerus yang akan menetap dalam diri.",
+                "Panic attack dapat terjadi oleh siapa saja, di mana pun dan kapan pun. Seseorang yang mengalaminya tentu akan memiliki perasaan yang cemas dan sangat ketakutan luar biasa walaupun sebenarnya mereka tidak sedang mengalami suatu bahaya apapun.",
+                "panic attack merupakan suatu reaksi dari sebuah situasi dengan penuh tekanan yang terjadi secara spontan. Panic attack atau serangan panik tidak dapat diprediksi oleh seseorang dengan atau tanpa alasan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "panic attack",
+            "patterns": [
+                "Apa yang dilakukan saat panic attack?",
+                "apa yang harus harus dilakukan saat panic attack?",
+                "kalo panic attack kambuh apa yang harus dilakukan?"
+            ],
+            "responses": [
+                "Aktif secara fisik menjaga suasana hati (mood).",
+                "Berlatih mengelola stres dan relaksasi.",
+                "Mengikut jadwal dan program pengobatan.",
+                "Menjaga waktu tidur dan tidak memikirkan hal yang membuat suasana hati tidak nyaman"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "panic attack",
+            "patterns": [
+                "Apa penyebab panic attac?",
+                "Apa penyebab serangan fisik?",
+                "Hal apa yang menyebabkan panis attack?",
+                "Penyebab panic attac kambuh?"
+            ],
+            "responses": [
+                "1. Stres berlebihan 2. Temperamen yang mudah terpengaruh oleh stres 3. Mempunyai riwayat pelecehan fisik atau seksual semasa kecil 4. Faktor genetik dalam keluarga 5. Peristiwa traumatis 6. Perubahan zat yang berdampak pada fungsi otak untuk bekerja 7. Mengonsumsi minuman berkafein yang berlebihan."
+            ]
+        },
+        {
+            "tag": "panic attack",
+            "patterns": [
+                "Apa saja gejala panic attack??",
+                "Gejala serangan panik?",
+                "tanda tanda panic attack?",
+                "Sebutkan gelaja panic attack?"
+            ],
+            "responses": [
+                "Gejala serangan panik umumnya muncul dengan tiba-tiba dan berlangsung selama 5 – 20 menit, hingga 1 jam.",
+                "1. Rasa gemetaran 2. Sakit di tenggorokan dan sulit bernapas 3. Detak jantung yang cepat dan keras 4. Adanya kram perut 5. Sakit dada 6. Pusing atau bahkan pingsan 7. Rasa mual 8. Mati rasa atau kebal 9. Keringat berlebihan."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}

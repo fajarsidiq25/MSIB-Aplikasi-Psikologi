@@ -1,0 +1,372 @@
+{
+	"intents": [
+		{
+			"tag": "mental health",
+			"patterns": [
+				"gejala mental health?",
+				"gejala kesehatan mental?",
+				"apa saja gejala mental health?",
+				"awal gejala mental health",
+				"gejala-gejala mental heath?"
+			],
+			"responses": [
+				"1. berteriak atau berkelahi dengan keluarga atau teman 2. merasa sedih, tidak berdaya, tidak berarti, putus asa, dan tidak ada harapan 3. merasa bingung, pelupa, pemarah, tersinggung, dan cemas 4. perubahan gairah seks 5. delusi, paronia, halusinasi 6. ketakutan, kekhawatiran, atau perasaan bersalah yang selalu meng hantui 7. ketidakmampuan untuk mengatasi stres atau masalah sehari hari"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "mental health",
+			"patterns": [
+				"penyebab mental health",
+				"penyebab kesehatan mental",
+				"apa penyebab mental health?",
+				"apa saja penyebab mental health?"
+			],
+			"responses": [
+				"1. cidera kepala 2. faktor genetik, atau terdapat riwayat pengidap dalam keluarga 3. kekerasan dalam rumah tangga atau pelecehan lainnya 4. kekerasan pada anak atau riwayat kekerasan pada masa kanak-kanak 5. mempunyai kelainan kimia senyawa otak atau gangguan pada otak 6. mengalami diskriminasi dan stigma 7. mengalami kehilangan atau kematian seseorang yang sangat dekat 8. mengalami kerugian sosial seperti kemiskinan atau hutang 9. merawat anggota keluarga atau teman yang sakit kronis 10. pengangguran, kehilangan pekerjaan, atau tuna wisma 11. pengaruh zat racun, alkohol, atau obat obatan yang dapat merusak otak"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "mental health",
+			"patterns": [
+				"pencegahan mental health",
+				"pencegahan kesehatan mental",
+				"cara mencegah penyakit mental?",
+				"cara mencegah mental health?"
+			],
+			"responses": [
+				"1. melakukan aktivitas fisik dan tetap aktif secara fisik 2. membantu orang lain dengan tulus 3. memelihara pikiran yang positif 4. memiliki kemampuan untuk mengatasi masalah 5. mencari bantuan profesional 6. menjaga hubungan baik dengan orang lain 7. menjaga kecukupan tidur dan istirahat"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "mental health",
+			"patterns": [
+				"pengobatan kesehatan mental",
+				"pengobatan mental health",
+				"cara mengobati mental health?",
+				"sebutkan beberapa cara pengobatan mental health?"
+			],
+			"responses": [
+				"1. Psikoterapi. Psikoterapi merupakan terapi bicara yang memberikan media yang aman untuk pengidap dalam mengungkapkan perasaan dan meminta saran. Psikiater akan memberikan bantuan dengan membimbing pengidap dalam mengontrol perasaan. Psikoterapi beserta perawatan dengan menggunakan obat-obatan merupakan cara yang paling efektif untuk mengobati penyakit mental. Beberapa contoh psikoterapi, antara lain cognitive behavioral therapy, exposure therapy, dialectical behavior therapy, dan sebagainya. 2. Obat-obatan. Pemberian obat-obatan untuk mengobati penyakit mental umumnya bertujuan untuk mengubah senyawa kimia otak di otak. Obat-obatan tersebut berupa golongan selective seretonin reuptake inhibitor (SSRI), serotonin-neropinephrine reuptake inhibitor (SNRIs), dan antidepresan trisiklik. Obat-obatan ini umumnya dikombinasikan dengan psikoterapi untuk hasil pengobatan yang lebih efektif 3. Rawat inap. Rawat inap diperlukan jika pengidap membutuhkan pemantauan ketat terhadap gejala-gejala penyakit yang dialaminya atau terdapat kegawatdaruratan dibidang psikiatri, misalnya percobaan bunur diri 4. Support group. Support group umumnya beranggotakan pengidap penyakit mental yang sejenis atau yang sudah dapat mengendalikan emosinya dengan baik. Mereka berkumpul untuk berbagi pengalaman dan membimbing satu sama lain menuju pemulihan 5. Stimulasi otak. Stimulasi otak berupa terapi elektrokonvulsif, stimulasi magnetik transkranial, pengobatan ekspremental yang disebut stimulasi otak dalam, dan stimulasi saraf bagus 6. pengobatan terhadap penyalahgunaan zat. Pengobatan ini dilakukan pada pengidap penyakit mental yang disebabkan oleh ketergantungan akibat penyalahgunaan zat terlarang 7. Membuat rencana bagi diri sendiri, misalnya mengatur gaya hidup dan kebiasaan sehari hari, untuk melawan penyakit mental. Rencana ini bertujuan untuk memantau kesehatan, membantu proses pemulihan, dan mengenali pemicu atau tanda-tanda kesehatan mental."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "mental health",
+			"patterns": [
+				"faktor risiko mental health",
+				"apa saja faktor risiko gangguan mental?"
+			],
+			"responses": [
+				"1. Perempuan memiliki risiko tinggi mengidap depresi dan kecemasan, sedangkan laki-laki memiliki risiko mengidap ketergantungan zat dan antisosial 2. perempuan setelah melahirkan 3. memiliki masalah dimasa kanak-kanak atau masalah gaya hidup 4. memiliki profesi yang memicu stres, seperti dokter dan pengusaha 5. memiliki riwayat anggota keluarga atau keluarga dengan penyakit mental 6. memiliki riwayat kelahiran dengan kelainan pada otak 7. memiliki riwayat penyakit mental sebelumnya 8. mengalami kegagalan dalam hidup, seperti sekolah atau kerja 9. menyalahgunakan alkohol atau obat-obatan terlarang."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panic attack",
+			"patterns": [
+				"definisi panic attack",
+				"definisi serangan panik?",
+				"panic attack",
+				"apa itu panic attack?",
+				"apa yang dimaksud panic attack?",
+				"jelaskan apa itu panic attack?",
+				""
+			],
+			"responses": [
+				"Panic attack merupakan timbulnya rasa takut yang datang secara tiba tiba tanpa penyebab dengan mengalami serangan jantung hingga mengira dirinya sedang kritis. Serangan panik ini pada umumnya bisa hilang dan banyak dialami oleh remaja wanita hingga dewasa, jika dibandingkan dengan laki-laki, anak-anak dan orang yang sudah berusia."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panic attack",
+			"patterns": [
+				"gejala serangan panik",
+				"gejala panic attack",
+				"jelaskan dan sebutkan gejala serangan panik?",
+				"jelaskan dan sebutkan gejala panic attack?",
+				"apa saja gejala serangan panik?",
+				"apa saja gejala panic attack?"
+			],
+			"responses": [
+				"Gejala serangan panik umumnya muncul tiba-tiba dan berlangsung selama 5-20menit, hingga 1jam. Beberapa gejala serangan panik, diantaranya yaitu : 1. Rasa gemetaran 2. Sakit ditenggorokan dan sulit bernafas 3. Detak jantung yang cepat dan keras 4. Adanya kram perut 5. Sakit dada 6. Pusing atau bahkan pingsan 7. Rasa mual 8. Mati rasa atau kebal 9. Keringat berlebihan."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panic attack",
+			"patterns": [
+				"penyebab serangan panik",
+				"penyebab panic attack",
+				"kenapa bisa terjadi serangan panik?",
+				"kenapa bisa terjadi panic attack?",
+				"serangan panik disebabkan karena apa?",
+				"panic attack disebabkan karena apa?"
+			],
+			"responses": [
+				"1. Stres berlebihan 2. Temperamen riwayat pelecehan fisik atau seksual semasa kecil 3. Faktor genetik dalam keluarga 4. Peristiwa traumatis 5. Perubahan zat yang berdampak pada fungsi otak untuk bekerja 6. Mengonsumsi minuman berkafein yang berlebihan."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panic attack",
+			"patterns": [
+				"pengobatan serangan panik",
+				"pengobatan panic attack",
+				"cara mengobati serangan panik?",
+				"cara mengobati panic attack?",
+				"sebutkan cara mengobati serangan panik?",
+				"sebutkan cara mengobati panic attack?"
+			],
+			"responses": [
+				"Mengobati serangan panik dapat dengan beberapa cara yang dipilih dan disesuaikan berdasarkan kondisi pengidap, riwayat penyakit, yang diantara yaitu : 1. Obat-obatan, pengobatan serangan panik dapat menggunakan obat-obatan, karena efektif dalam mengurangi adanya gejala serangan panik dan depresi. Membutuhkan waktu beberapa minggu hingga menunjukan adanya perubahan pada gejala yang dirasakan. Serta perhatikan bahwa penggunaan obat-obatan mempunyai efek samping jika diberikan pada wanita hamil 2. Psikoterapi, terapi dianggap pengobatan yang paling efektif untuk mengobati serangan panik, dan dikenal dengan "terapi wicara". Selain itu, mempunyai cara untuk perawatan diri juga membantu untuk dapat mengenali dan mengendalikan gejala pada pengidap serangan panik, seperti, tidak emosian, mengatur waktu tidur, rajin berolahraga, relaksasi."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panic attack",
+			"patterns": [
+				"tanda-tanda panic attack",
+				"tanda-tanda serangan panik",
+				"sebutkan tanda-tanda serangan panik?",
+				"sebutkan tanda-tanda panic attack?",
+				"apa saja tanda-tanda serangan panik?",
+				"apa saja tanda-tanda panic attack"
+			],
+			"responses": [
+				"1. Merasa akan datangnya malapetaka 2. Takut kehilangan kendali dan menjadi gila 3. Seakan-akan menjelang ajal 4. Jantung berdebar-debar kuat 5. Berkeringat berlebihan 6. Gemetaran 7. Napas pendes dan tenggorokan terceklik 8. Sensai dingin di sebagian atau seluruh tubuh 9. Wajah terasa panas 10. Mual hingga kram perut 11. Nyeri dada 12. Sakit kepala, berputar, hingga seperti akan pingsan 13. Kesemutan atau serasa ada yang merayap dibawah kulit 14. Merasa seperti keluar dari realita atau mirip mimpi"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panic attack dan anxiety",
+			"patterns": [
+				"apa perbedaan panic attack dan anxiety?"
+			],
+			"responses": [
+				"Anxiety disorder adalah istilah untuk menjelaskan gangguan mental yang memiliki ciri khas gejala kecemasan, Sementara itu Panic attack adalah suatu perasaan takut yang muncul secara tiba tiba dan terasa intens kadang tanpa penyebab yang jelas."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "anxiety",
+			"patterns": [
+				"anxiety",
+				"apa itu anxiety?",
+				"definisi anxiety",
+				"apa yang dimaksud anxiety?",
+				"apa yang dimaksud dengan anxiety?",
+				"jelaskan apa itu anxiety?"
+			],
+			"responses": [
+				"Anxiety disorder adalah istilah untuk menjelaskan gangguan mental yang memiliki ciri khas gejala kecemasan"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "anxiety",
+			"patterns": [
+				"apa itu anxiety dan ciri-cirinya?",
+				"jelaskan dan sebutkan ciri-ciri anxiety?"
+			],
+			"responses": [
+				"Anxiety disorder adalah jenis gangguan kesehatan mental dimana pengidapnya akan merasakan kecemasan berlebihan. Kamu mungkin menanggapi hal-hal dan situasi tertentu dengan rasa takut serta mengalami tanda-tanda fisik kecemasan, seperti jantung berdebar dan berkeringat."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panik",
+			"patterns": [
+				" kenapa saya mudah panik?",
+				"mengapa saya mudah panik?"
+			],
+			"responses": [
+				"Beberapa faktor pemicu gangguan panik : stres, riwayat kesehatan keluarga, kejadian traumatis, perubahan drastis dalam hidup(mis punya anak, cerai), konsumsi kafein/nikotin berlebihan, riwayat mengalami kekerasan fisik/seksual."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "panic attack",
+			"patterns": [
+				"apakah panic attack bisa hilang?",
+				"apakah panic attack berbahaya?",
+				"apakah serangan panik berbahaya?",
+				"apakah serangan panik bisa hilang?"
+			],
+			"responses": [
+				"Meskipun demikian, panic attack umumnya tidak berbahaya karena kondisi ini biasanya dapat hilang dengan sendirinya dan hanya dialami 1-2 kali sepanjang hidup. Panic attack menyebabkan jantung berdebar kencang bukan karena rasa cemas, dan takut yang juga akan menimbulkan kesulitan bernapas."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"definisi disleksia",
+				"apa itu disleksia?",
+				"apa yang dimaksud disleksia?",
+				"jelaskan apa itu disleksia?",
+				"arti disleksia",
+				"disleksia",
+				"disleksia itu apa?"
+			],
+			"responses": [
+				"Disleksia sendiri adalah gangguan dalam proses belajar yang ditandai dengan kesulitan menulis, membaca, ataupun mengeja. Selain itu, pengidapnya juga akan mengalami kesulitan dalam mengidentifikasi kata-kata yang diucapkan dan mengubahnya menjadi huruf atau kalimat."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"apa penyebab disleksia?",
+				"penyebab disleksia?",
+				"disleksia disebabkan karena apa?",
+				"apa yang menyebabkan anak disleksia?"
+			],
+			"responses": [
+				"Penyebab disleksia yang utama berasal dari genetika. Seorang anak yang menderita disleksia kemungkinan memiliki orang tua, saudara atau anggota keluarga lainnya yang juga memiliki penyakit yang sama. Penyakit disleksia menyebabkan difungsi otak bagian pengelolaan bahasa yang berguna untuk memahami bahasa dengan baik."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"apakah disleksia bisa disembuhkan?",
+				"apa disleksia bisa disembuhkan?",
+				"disleksia bisa disembuhkan?",
+				"penyakit disleksia bisa disembuhkan?"
+			],
+			"responses": [
+				"Meskipun disleksia tergolong penyakit yang tidak dapat disembuhkan, tetapi deteksi dan penanganan sejak usia dini terbukti efektif meningkatkan kemampuan penderita dalam membaca. Salah satu metode yang paling efektif dalam meningkatkan kemampuan baca tulis penderita disleksia adalah fonik."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"ciri-ciri disleksia",
+				"ciri-ciri disleksia pada usia remaja dan dewasa?",
+				"sebutkan ciri-ciri disleksia?",
+				"apa saja ciri-ciri disleksia?"
+			],
+			"responses": [
+				"1.kesulitan membaca dengan suara lantang 2. Kemampuan membaca dan menulis yang lambat 3. Memiliki masalah dalam mengeja 4. Selalu menghindari kegiatan yang berhubungan dengan membaca 5. Seringkali salah saat mengucapkan nama atau kata-kata."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"berapa IQ anak disleksia?",
+				"berapa IQ anak penderita disleksia?",
+				"IQ anak disleksia?",
+				"IQ anak penderita disleksia?"
+			],
+			"responses": [
+				"Anak disleksia memiliki IQ rata-rata 90 hingga 110. Anak disleksia masih memiliki penalaran yang baik, logika baik, serta kemampuan analisis yang baik."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"apakah disleksia sama dengan autis?",
+				"disleksia dan autis sama?",
+				"perbedaan disleksia dan autisme?"
+			],
+			"responses": [
+				"Pada dasarnya, autisme dan disleksia adalah dua kondisi yang berbeda, meskipun keduanya tampak hampir sama. Oleh karena itu tentu saja seseorang yang menderita autisme dapat saja menderita disleksia."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"kelebihan anak disleksia",
+				"apa kelebihan anak disleksia?",
+				"kelebihan disleksia",
+				"kelebihan anak penderita disleksia?",
+				"sebutkan kelebihan penderita disleksia?",
+				"7 kelebihan disleksia?"
+			],
+			"responses": [
+				"1. Berpikir luas dan pandai mengenal pola pada gambar 2. Pandai menemukan hal tidak terduga 3. Berpikir secara visual dan special 4. Penglihatan unik dan tajam 5. Pengusaha dan pebisnis yang sukses 6. Kreativitas ingkat tinggi 7. Problem solving"
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"apakah anak disleksia bisa membaca?",
+				"anak penderita disleksia bisa membaca?",
+				"apakah anak disleksia bisa menulis?",
+				"disleksia bisa membaca?",
+				"disleksia bisa menulis?"
+			],
+			"responses": [
+				"Disleksia berpengaruh pada kemampuan membaca dan menulis anak. Anak dengan disleksia akan kesulitan diajak membaca buku apalagi menggunakan teks yang panjang. Hal ini menyebabkan mereka kesulitan belajar menulis."
+			],
+			"context": [
+				""
+			]
+		},
+		{
+			"tag": "disleksia",
+			"patterns": [
+				"apakah disleksia termasuk penyakit?",
+				"apakah disleksia bisa disebut penyakit?"
+			],
+			"responses": [
+				"Meskipun disleksia tergolong penyakit yang tidak dapat disembuhkan, tetapi deteksi dan penanganan sejak usia dini terbukti efektif meningkatkan kemampuan penderita dalam membaca. Salah satu metode yang paling efektif dalam meningkatkan kemampuan baca tulis penderita disleksia adalah fonik"
+			],
+			"context": [
+				""
+			]
+		}
+	]
+}

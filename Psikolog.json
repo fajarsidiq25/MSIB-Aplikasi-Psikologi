@@ -1,0 +1,263 @@
+{
+  "intents": [
+    {
+      "tag": "Autis",
+      "patterns": ["Autis itu apa artinya?", "Apa itu autis?", "Pengertian dari autis", "Autis adalah?", "apa yang di maksud autis?"],
+      "responses": [
+        "Attention Deficit and Hyperactivity Disorder (ADHD) lebih dikenal sebagai gangguan pemusatan perhatian dan hiperaktivitas, sementara Autism Spectrum Disorder (ASD) lebih banyak dikenal sebagai autisme. Kedua gangguan ini adalah gangguan mental yang beronset pada masa kanak dan remaja."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Penyebab",
+      "patterns": ["Anak autis disebabkan oleh apa?", "Apa penyebab autis?", "Kenapa bisa autis?", "Bagai mana bisa terjadi autis"],
+      "responses": [
+        "Menurut National Institute of Neurological Disorders and Stroke (NINDS), autisme disebabkan oleh kombinasi faktor genetik dan lingkungan. Penelitian terbaru mengonfirmasi beberapa kelainan genetik yang dapat memengaruhi seseorang terhadap autisme."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "IQ",
+      "patterns": ["Anak autis IQ nya berapa?", "Berapa IQ anak autis?", "Seberapa tinggi IQ anak autis?"],
+      "responses": [
+        "Sekitar 50 persen anak autis memiliki IQ di bawah 50. Namun, standar untuk tes kecerdasan menggunakan keterampilan seperti menjawab pertanyaan, mengikuti arahan, dan mengidentifikasi item, yang dipelajari anak autis nanti atau melalui intervensi terapeutik."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Menular?",
+      "patterns": ["Apakah autis itu menular?", "Bisakah autis menular?"],
+      "responses": [
+        "Gangguan perkembangan ini biasanya memengaruhi kemampuan anak untuk berkomunikasi, berinteraksi sosial dan seringkali muncul perilaku yang kurang lazim. Autisme tidak menular, gangguan ini dapat terjadi pada setiap lapisan masyarakat, dari strata terendah hingga strata tinggi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Cita",
+      "patterns": ["Apakah anak autis bisa jatuh cinta?", "Bisakah anak autis merasakan jatuh cinta?"],
+      "responses": [
+        "'Anak autis juga merasakan jatuh cinta, hanya saja dia tidak tahu aturan-aturan sosial', ujar Dr. Adriana Ginanja, MS, psikolog sekaligus pendiri sekolah khusus anak autis 'Mandiga', saat dihubungi detikHealth, Rabu (19/12/2012). 'Remaja autis sama dengan remaja-remaja lainnya yang juga bisa merasakan cinta.'"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Pintar",
+      "patterns": ["Kenapa anak autis lebih pintar?", "Apakah anak autis pintar", "Apakah anak autis cerdas?"],
+      "responses": [
+        "Orang dengan autisme biasanya cerdas karena mereka bisa dengan mudah mengingat hal-hal yang pernah ditemuinya. Saat mereka melihat orang tua atau gurunya memainkan suatu alat musik, mereka akan merekam kejadian tersebut dengan baik dalam memorinya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "simi",
+      "patterns": [],
+      "url": "https://api.simsimi.net/v2/?text={patterns}&lc=id",
+      "responses": ["https://api.simsimi.net/v2/?text={patterns}&lc=id"],
+      "context": [""]
+    },
+    {
+      "tag": "Kelebihan",
+      "patterns": ["Apa Kelebihan anak autis?", "Kelebihhan anak autis", "Apakah anak autis punya kelebihan?"],
+      "responses": ["\n 1. Konsentrasi yang sangat tinggi \n 2. tDaya ingat tajam \n 3. Memerhatikan detail \n 4. Lebih mengandalkan logika daripada emosi"],
+      "context": [""]
+    },
+    {
+      "tag": "Usia",
+      "patterns": ["Berapa lama hidup orang autis?", "Batas usia orang autis?", "Apakah autis punya batas usia?"],
+      "responses": ["Studi yang dipublikasi di British Journal of Psychiatry tersebut menunjukkan bahwa rata-rata orang dengan autisme meninggal 16 tahun lebih cepat dibandingkan populasi umumnya."],
+      "context": [""]
+    },
+    {
+      "tag": "Batas autis",
+      "patterns": ["Anak autis sampai umur berapa?", "Berapa lama anak autis bisa sembuh?", "Usia berapa autis bisa sembuh?"],
+      "responses": [
+        "Penelitian menunjukkan kalau anak autis akan sembuh pada usia 18 sampai 21 tahun. Menurut penelitian, anak tidak lagi menunjukkan kesulitan dalam pidato maupun berkomunikasi, mengenali wajah orang atau interaksi sosial dan beberapa perilaku lainnya."
+      ],
+      "context": []
+    },
+    {
+      "tag": "Bahaya autis",
+      "patterns": ["Apakah anak autis bisa tertawa?", "Autis bisa tertawa?", "Bisakah anak autis tertawa?"],
+      "responses": ["Dijelaskan dr Yulia Darmawi dalam seminar tentang autisme di RS Budi Kemuliaan, tertawa sendiri pada anak autis umumnya dikarenakan asupan yang mengandung phenol."],
+      "context": []
+    },
+    {
+      "tag": "Jenis",
+      "patterns": ["Berapa macam autis?", "Jenis autis", "Sebutkan jenis autis"],
+      "responses": [
+        "Inilah 3 Jenis Autisme yang Bisa Serang Anak \n 1. Sindrom Rett,Sindrom Rett adalah salah satu kelainan genetik yang memengaruhi perkembangan otak anak. Gejala yang muncul biasanya saat anak menginjak usia 1 hingga 1,5 tahun. Gangguan tumbuh kembang terlihat pada kemampuan berbicara anak yang terlambat hingga alami gangguan bergerak. Umumnya, gejala yang muncul pada pengidap sindrom Rett dianggap sebagai autisme atau keterlambatan perkembangan non-spesifik. Ada beberapa pengobatan yang bisa dilakukan, seperti terapi bahasa, terapi okupasi, dan fisioterapi.\n 2. Gangguan Disintegratif Anak Gangguan disintegratif anak, dikenal juga sebagai sindrom Heller adalah salah satu gangguan ketika tumbuh kembang anak berjalan normal hingga anak berusia 3-4 tahun. Namun pada bulan berikutnya, anak kehilangan kemampuan, seperti aspek bahasa, sosial, motorik, dan mental. Sindrom Heller berhubungan langsung dengan sistem saraf otak. Pengobatan untuk mengatasi kondisi ini umumnya dilakukan dengan terapi perilaku untuk mengajarkan kembali kemampuan anak yang perlahan menurun.\n 3. Sindrom Asperger Sindrom ini umumnya menyerang anak-anak dan bertahan hingga anak beranjak dewasa. Pengidap Asperger memiliki kecerdasan yang baik dan pandai dalam berbahasa, namun terlihat kesulitan ketika akan berkomunikasi dan berinteraksi dengan orang disekitarnya. Gejala terlihat seperti kesulitan berinteraksi, tidak ekspresif, kurang peka terhadap lingkungan, obsesif, repetitif, kurang menyukai perubahan, adanya gangguan motorik dan gangguan fisik."
+      ],
+      "context": []
+    },
+    {
+      "tag": "Menatap",
+      "patterns": ["Mengapa anak autis tidak mau menatap mata?", "Apakah anak autis bisa saling menatap mata?", "Bagai mana tatapan mata anak autis?"],
+      "responses": [
+        "Anak-anak dengan autisme sering mengalami kesulitan melakukan kontak mata kepada lawan bicaranya. Sebuah penelitian baru menunjukkan hal ini mungkin disebabkan sebagian otaknya memproses informasi visual, bukannya murni defisit sosial."
+      ],
+      "context": []
+    },
+    {
+      "tag": "Pantangan",
+      "patterns": ["Apa pantangan anak autis?", "Apa makanan anak autis?", "Bagai mana pola makan anak autis?"],
+      "responses": [
+        "Bagi anak autis hindari makanan tersebut dan diganti dengan ubi, jagung, bihun dan singkong. Kasein adalah protein yang ditemukan pada banyak pada produk makanan. Yang termasuk makanan yang mengandung kasein yaitu olahan dari susu, seperti yagurt, keju, mentega dan es krim."
+      ],
+      "context": []
+    },
+    {
+      "tag": "Sembuh",
+      "patterns": ["Apakah autis bisa sembuh total?", "Apakah benar anak autis bisa sembuh?", "Anak autis bisa sembuh?"],
+      "responses": ["meskipun tidak sepenuhnya, obat-obatan dan terapi dapat membantu mengurangi gejala autisme dan mendukung kapasitas fungsional. Dokter merekomendasikan jenis terapi yang anak penderita autis perlukan."],
+      "context": []
+    },
+    {
+      "tag": "histeria",
+      "patterns": ["Bolehkah anak autis makan mie instan?", "Apakah mie instan boleh dimakan anak autis?"],
+      "responses": ["Salah satu makanan yang sebaiknya tidak diberikan pada anak autisme adalah mie dan sejenis pasta."],
+      "context": []
+    },
+    {
+      "tag": "histeria",
+      "patterns": ["Kapan tau anak autis?", "Umur berapa anak autis terlihat?", "Apa ciri-ciri anak autis?"],
+      "responses": ["Ciri-ciri anak autis umumnya mulai terlihat jelas saat ia menginjak usia 1–2 tahun."],
+      "context": []
+    },
+    {
+      "tag": "histeria",
+      "patterns": ["Bagaimana anak autis setelah dewasa?", "Bagai mana anak autis ketika dewasa?"],
+      "responses": [
+        "rang dewasa dengan autisme mungkin juga memiliki pola pikir dan perilaku yang tidak fleksibel serta dapat melakukan tindakan berulang. Tanda dan gejala umum autisme pada orang dewasa dapat mencakup: Kesulitan memulai percakapan. Kesulitan membuat atau mempertahankan persahabatan dekat."
+      ],
+      "context": []
+    },
+    {
+      "tag": "Histeria",
+      "patterns": ["Histeria itu seperti apa?", "Apa itu histeria", "Apa yang dimaksud histeria?", "Histeria"],
+      "responses": ["Halodoc, Jakarta – Histeria adalah istilah yang sering digunakan untuk menggambarkan suatu perilaku emosional yang tampaknya berlebihan dan di luar kendali."],
+      "context": []
+    },
+    {
+      "tag": "histeria",
+      "patterns": ["Bagaimana penanganan penderita histeria?", "Apa langkah-langkah penanganan histeria?", "pertolongan pertama penderita histeria?"],
+      "responses": ["Adapun Langkah-langkah penanganan / pertolongan pertama bagi penderita Histeria antara lain : \n 1. Tenangkan korban \n 2. Pisahkan dari keramaian \n 3. Letakkan di tempat yang tenang \n 4. Awasi"],
+      "context": ["jaga_sikap"]
+    },
+    {
+      "tag": "histeria",
+      "patterns": ["Apakah kesurupan itu gangguan jiwa?", "Apakah kesurupan sama dengan gangguan jiwa?"],
+      "responses": ["Siswanto SPsi MSi menyatakan, kesurupan merupakan gangguan mental disosiatif. Dari penelitiannya kasus-kasus kesurupan banyak terjadi dari kalangan orang yang taat beragama."],
+      "context": []
+    },
+    {
+      "tag": "histeria",
+      "patterns": ["Apa Penyebab Histeria? ", "Penyebab histeria", "Apakah histeria ada penyebabnya?"],
+      "responses": [
+        "Seiring waktu, teori tentang apa yang menyebabkan histeria telah berubah. Kini, penyebab gangguan disosiatif dan somatik sering kali lebih mengarah pada kondisi psikologis. Gangguan disosiatif umumnya disebabkan oleh pengalaman beberapa jenis trauma."
+      ],
+      "context": ["search_blood_pressure_by_patient_id"]
+    },
+    {
+      "tag": "Paranoid",
+      "patterns": ["Apa yang dimaksud dengan paranoid?", "Apa itu paranoid?"],
+      "responses": [
+        "Paranoid adalah masalah psikologis yang ditandai dengan munculnya rasa curiga dan takut berlebihan. Orang yang paranoid cenderung sulit atau bahkan tidak bisa memercayai orang lain dan memiliki pola pikir yang berbeda dari kebanyakan orang."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "paranoid",
+      "patterns": ["Apa ciri ciri paranoid?", "Ciri paranoid", "Ciri khusus paranoid"],
+      "responses": [
+        "Gangguan kepribadian paranoid memiliki ciri-ciri khusus yang dapat dikenali. Ciri-ciri gangguan kepribadian Paranoid sebagai berikut: Kepekaan berlebihan terhadap kegagalan dan penolakan. Kecenderungan untuk tetap menyimpan dendam,misalnya menolak untuk memaafkan suatu penghinaan dan luka hati atau masalah kecil."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Paranoid",
+      "patterns": ["Apa penyebab sakit paranoid?", "Peneyebab paranoid"],
+      "responses": [
+        "Penyebab Paranoid: Penyebab gangguan kepribadian paranoid belum diketahui hingga saat ini. Namun, penelitian menduga bahwa paranoid terkait dengan faktor genetik dan gangguan psikologis, seperti skizofrenia atau gangguan delusi. Paranoid lebih banyak dialami oleh pria dibandingkan wanita."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "paranoid",
+      "patterns": ["Apakah paranoid bisa sembuh?", "Paranoid sembuh", "Bisakah paranoid sembuh?"],
+      "responses": [
+        "Proses mengatasi gangguan kepribadian paranoid sendiri dapat dilakukan dengan dua cara, yaitu psikoterapi dan obat-obatan. Dalam kasus yang parah, proses pengobatan dapat sekaligus dilakukan secara bersamaan. Apapun tindakan yang digunakan akan disesuaikan dengan intensitas gejala yang muncul pada pengidap."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "paranoid",
+      "patterns": [],
+      "responses": ["Bagaimana cara menghilangkan rasa paranoid?", "Cara mengatasi paranoid"],
+      "context": [
+        "sCara Mengatasi Paranoid \n 1. Terapi Psikologis: Cara mengatasi paranoid yang pertama adalah dengan terapi psikologis. Tak perlu khawatir atau takut untuk berkonsultasi kepada psikolog. Ahli psikolog akan membantumu menangani segala masalah yang sedang dihadapi. Terapi dari psikolog juga bisa membantu menghilangkan pikiran negatif dan trauma.\n 2. Terapi Obat: Untuk seseorang yang mengalami paranoid berlebihan, dapat berkonsultasi pada psikiater. Sehingga dokter akan memberikan terapi obat khusus untuk menyembuhkan gejalanya. Obat-obatan ini akan diberikan pada seseorang yang mengalami paranoid dengan gejala parah. Obat yang biasanya diresepkan oleh dokter adalah antidepresan, antipsikotik, dan anti-kecemasan.\n 3. Detoksifikasi: Paranoid dapat dialami oleh seorang pecandu obat-obatan terlarang. Biasanya dokter akan melakukan terapi detoksifikasi untuk menghilangkan zat-zat kimia dari obat-obatan terlarang tersebut. Jangan lupa untuk melakukan kegiatan positif untuk mendukung kesembuhan mental dan membantumu berpikiran positif."
+      ]
+    },
+    {
+      "tag": "paranoid",
+      "patterns": ["Apakah paranoid termasuk penyakit mental?", "Paranoid sama dengan penyakit mental?", "Paranoid termasuk penyakit apa?"],
+      "responses": [
+        "Gangguan kepribadian paranoid adalah kondisi kesehatan mental yang cukup umum terjadi. Menurut sebuah studi, paranoia merupakan salah satu jenis gangguan kejiwaan yang paling umum bila dibandingkan dengan kondisi mental lainnya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Skizo",
+      "patterns": ["Apa itu orang Skizo?", "apa itu skizo", "skizo?"],
+      "responses": [
+        "Skizofrenia adalah gangguan kejiwaan kronis ketika pengidapnya mengalami halusinasi, delusi, kekacauan dalam berpikir, dan perubahan sikap. Umumnya pengidap skizofrenia mengalami gejala psikosis, yaitu kesulitan membedakan antara kenyataan dengan pikiran pada diri sendiri."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "skizo",
+      "patterns": ["Apa yang di rasakan penderita skizofrenia?", "penderita skizo", "seperti apa rasa skizo?"],
+      "responses": [
+        "Skizofrenia sendiri merupakan gangguan mental yang terjadi dalam jangka panjang. Ketika menyerang seseorang, skizofrenia akan membuat pengidapnya mengalami delusi, halusinasi, kekacauan dalam berpikir, mengasingkan diri dari orang lain, hingga mengalami perubahan perilaku."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "skizo",
+      "patterns": ["Apa obat penyakit skizofrenia?", "obat skizo"],
+      "responses": [
+        "Obat skizofrenia atau antipsikotik bekerja dengan cara mengubah aktivitas zat-zat kimia tertentu di dalam otak. Obat ini ada yang diberikan dalam bentuk obat minum seperti tablet, kapsul, atau sirop, dan ada juga yang dalam bentuk obat suntik. Pemberian obat antipsikotik bertujuan untuk mengurangi gejala skizofrenia."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "skizo",
+      "patterns": ["Apakah skizofrenia pintar?", "apa skizo cerdas?", "skizo pintar"],
+      "responses": [
+        "Orang dengan Skizofrenia Tidak Cerdas? Pasien skizofrenia terbukti cerdas, atau lebih tepatnya 'jenius gila'. Sebuah studi yang diterbitkan dalam jurnal Nature menganalisis keterkaitan antara orang sukses dan potensi mereka sebagai penderita gangguan mental."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "skizo",
+      "patterns": ["Apa skizofrenia sama dengan gila?", "skizo orang gila?"],
+      "responses": ["Kenyataannya, penderita skizofrenia bukanlah orang gila. Gangguan skizofrenia kerap mendapatkan stigma negatif oleh masyarakat."],
+      "context": [""]
+    },
+    {
+      "tag": "skizo",
+      "patterns": ["Cara menghadapi penderita skizofrenia", "bagai mana menghadapi penderita skizo"],
+      "responses": [
+        "Jika ada orang-orang terdekat atau keluarga Anda yang menderita skizofrenia, berikut ini adalah beberapa hal yang dapat Anda lakukan: \n 1. Beri mereka jarak yang cukup Penderita skizofrenia sering kali merasa paranoid, yang membuatnya selalu merasa curiga jika orang-orang di sekitarnya akan membahayakan dirinya. Mereka bisa saja tiba-tiba menjadi agresif untuk menjaga diri, maka untuk menghindari hal tersebut, sebisa mungkin Anda memberi jarak yang cukup. Contoh sederhana yang dapat Anda lakukan adalah dengan membiarkan saat mereka ingin sendirian di kamar.\n 2. Hindari stimulasi yang membuat mereka makin paranoid Jauhkan benda-benda yang dapat memicu semakin tingginya perasaan paranoid para penderita skizofrenia. Contohnya adalah televisi. Penderita paranoid dapat merasa jika berita atau film yang diputar sedang membicarakan dirinya.\n 3. Jauhkan benda-benda berbahaya Saat penderita skizofrenia sudah terlalu paranoid, mereka akan melakukan apa saja untuk membela diri dari ancaman yang sebenarnya tidak nyata. Mereka akan mengumpulkan benda apa pun yang dapat dijadikan senjata. Oleh karena itu, demi menjaga keselamatan orang-orang di sekitar penderita skizofrenia, segera amankan dan jauhkan benda-benda berbahaya dari mereka.\n 4. Selamatkan penderita skizofrenia dari keinginan bunuh diri Penderita skizofrenia yang mengalami waham atau halusinasi parah tak lagi sekadar paranoid dengan sekitarnya, tapi juga memiliki kecenderungan untuk bunuh diri. Maka dari itu, selalu awasi apa yang mereka lakukan dan jauhkan benda-benda berbahaya di sekitarnya.\n 5. Terhubung dengan layanan kesehatan Pastikan penderita skizofrenia mendapat perawatan yang tepat dari dokter spesialis kesehatan jiwa atau psikiater. Kini, tidak hanya di rumah sakit besar, beberapa Puskesmas pun telah memiliki layanan untuk masalah kejiwaan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "skizo",
+      "patterns": ["Berapa jenis skizofrenia?", "jenis skizo", "sebutkan jenis-jenis skizo"],
+      "responses": [
+        "Berikut 5 jenis skizofrenia yang klasifikasinya sempat dijadikan acuan oleh para ahli dahulu: \n 1. Skizofrenia Paranoid: Skizofrenia jenis ini merupakan yang paling sering muncul gejalanya, termasuk di antaranya adalah delusi dan halusinasi. Pengidap skizofrenia paranoid biasanya menunjukkan perilaku yang tidak normal seakan ia sedang diawasi, sehingga ia kerap menunjukkan rasa marah, gelisah, bahkan benci terhadap seseorang. Namun, mereka yang mengalami skizofrenia jenis ini masih memiliki fungsi intelektual dan ekspresi yang tergolong normal.\n 2. Skizofrenia Katonik Skizofrenia katonik ditandai dengan adanya gangguan pergerakan. Pengidap skizofrenia jenis ini cenderung tidak bergerak atau justru bergerak hiperaktif. Pada beberapa kasus juga ditemukan sama sekali tidak mau berbicara, atau senang mengulangi perkataan orang lain. Pengidap skizofrenia katonik juga sering kali tidak memedulikan kebersihan dirinya, serta tidak mampu menyelesaikan aktivitas yang dilakukan.\n 3. Skizofrenia Tidak teratur Skizofrenia tidak teratur merupakan jenis yang memiliki kemungkinan paling kecil untuk disembuhkan. Pengidap skizofrenia jenis ini ditandai dengan ucapan dan tingkah laku yang tidak teratur dan sulit dipahami. Terkadang mereka bisa tertawa tanpa alasan jelas, atau terlihat sibuk dengan persepsi yang mereka miliki.\n 4. Skizofrenia Diferentiatif Skizofrenia jenis ini merupakan yang paling sering terjadi. Gejala yang ditimbulkan adalah kombinasi dari beragam subtipe dari skizofrenia lainnya.\n 5. Skizofrenia Residual: Pengidap skizofrenia residual biasanya tidak menunjukkan gejala umum dari skizofrenia seperti berkhayal, halusinasi, tidak teratur dalam berbicara dan berperilaku. Mereka baru mendapat diagnosis setelah satu dari empat jenis skizofrenia lain telah terjadi."
+      ],
+      "context": [""]
+    }
+  ]
+}

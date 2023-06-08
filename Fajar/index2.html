@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+    <link rel="stylesheet" href="static/mic/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="app">
+            <div class="input-single">
+                <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition."
+                    rows="6"></textarea>
+            </div>
+            <button id="start-record-btn" title="Start Recording">Start Recognition</button>
+            <button id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
+            <button id="save-note-btn" title="Save Note">Save Note</button>
+            <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="static/mic/script.js"></script>
+
+    <!-- Only used for the demos ads. Please ignore and remove. -->
+    <script src="https://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+
+</body>
+
+</html>
